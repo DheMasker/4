@@ -20,150 +20,33 @@ dns:
     geoip: true
     geoip-code: IR
 proxies:
-- name: 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-059.32-MS | 212.773MB
-  server: 15.181.162.1
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-us-nyc-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-060.50-MS | 151.404MB
+- name: 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.22-MS | 212.773MB
   server: 15.220.185.180
   port: 443
   type: trojan
   password: your_password
   sni: aws-mx-queretaro-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.76-MS | 87.788MB
+- name: 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.53-MS | 151.404MB
   server: 15.220.185.180
   port: 443
   type: trojan
   password: your_password
   sni: aws-mx-queretaro-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-063.41-MS | 81.085MB
-  server: 15.181.162.1
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-us-nyc-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-063.60-MS | 78.314MB
-  server: 164.90.130.217
-  port: 13337
+- name: 🇺🇸VM-WS-NA🇺🇸US-206.168.240.113:35425📡PING-062.84-MS | 87.788MB
+  server: 206.168.240.113
+  port: 35425
   type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-063.60-MS | 78.314MB
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-063.84-MS | 72.028MB
-  server: 164.90.130.217
-  port: 13337
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-063.84-MS | 72.028MB
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-064.88-MS | 64.827MB
-  server: 129.80.185.15
-  port: 32733
-  type: vmess
-  uuid: fb9da0cf-5f31-47e7-f7ad-1270173faab1
+  uuid: 78e34495-c417-48d9-e592-8625f26611c7
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /fb9da0cf
-- name: 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-067.44-MS | 63.843MB
-  server: 129.80.185.15
-  port: 32733
-  type: vmess
-  uuid: fb9da0cf-5f31-47e7-f7ad-1270173faab1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /fb9da0cf
-- name: 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-071.99-MS | 63.354MB
-  server: 35.183.238.42
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-ca-central-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-085.14-MS | 59.04MB
-  server: 35.183.238.42
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-ca-central-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-107.02-MS | 57.258MB
-  server: 103.168.155.19
-  port: 888
-  type: vmess
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-107.02-MS | 57.258MB
-  network: ws
-  ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
-    headers:
-      Host: cdn.cjhh.lol
-- name: 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-107.10-MS | 55.876MB
-  server: 103.168.155.19
-  port: 888
-  type: vmess
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-107.10-MS | 55.876MB
-  network: ws
-  ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
-    headers:
-      Host: cdn.cjhh.lol
-- name: 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-108.24-MS | 47.205MB
-  server: 43.206.127.212
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-jp-tokyo-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-108.74-MS | 42.727MB
-  server: 43.206.127.212
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-jp-tokyo-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-125.44-MS | 40.778MB
-  server: 52.56.183.187
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-uk-london-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-126.97-MS | 36.45MB
+    path: /jdbp606
+- name: 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-107.40-MS | 81.085MB
   server: 138.68.136.50
   port: 65500
   type: vmess
@@ -175,14 +58,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-129.26-MS | 35.725MB
-  server: 52.56.183.187
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-uk-london-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-131.21-MS | 35.631MB
+- name: 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-107.43-MS | 78.314MB
   server: 138.68.136.50
   port: 65500
   type: vmess
@@ -194,84 +70,59 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-132.64-MS | 35.604MB
+- name: 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-108.86-MS | 72.028MB
+  server: 52.56.183.187
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-uk-london-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-109.11-MS | 64.827MB
+  server: 52.56.183.187
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-uk-london-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇬🇧VM-WS-NA🇬🇧GB-198.244.232.207:8280📡PING-111.53-MS | 63.843MB
+  server: 198.244.232.207
+  port: 8280
+  type: vmess
+  uuid: cda145f1-0993-4ea5-ad0e-800229a79ccd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇬🇧VM-WS-NA🇬🇧GB-198.244.232.207:8280📡PING-111.59-MS | 63.354MB
+  server: 198.244.232.207
+  port: 8280
+  type: vmess
+  uuid: cda145f1-0993-4ea5-ad0e-800229a79ccd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-113.78-MS | 59.04MB
   server: 15.236.64.14
   port: 443
   type: trojan
   password: your_password
   sni: aws-fr-paris-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇰🇷VM-WS-NA🇰🇷KR-146.56.99.95:21453📡PING-135.62-MS | 35.386MB
-  server: 146.56.99.95
-  port: 21453
-  type: vmess
-  uuid: 4b445dc7-3db7-4476-978a-1fb2a4d5c2b0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: microsoft.com
-- name: 🇰🇷VM-WS-NA🇰🇷KR-146.56.99.95:21453📡PING-135.69-MS | 35.267MB
-  server: 146.56.99.95
-  port: 21453
-  type: vmess
-  uuid: 4b445dc7-3db7-4476-978a-1fb2a4d5c2b0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: microsoft.com
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-135.92-MS | 34.995MB
-  server: 8.211.2.127
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-136.14-MS | 34.265MB
-  server: 8.211.2.127
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-136.52-MS | 34.109MB
-  server: 8.209.111.119
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-136.66-MS | 33.123MB
+- name: 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-113.93-MS | 57.258MB
   server: 15.236.64.14
   port: 443
   type: trojan
   password: your_password
   sni: aws-fr-paris-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-138.29-MS | 33.09MB
-  server: 91.107.173.213
-  port: 21212
-  type: vmess
-  uuid: 07f617c8-c8b2-47f4-8898-7d84d046f188
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: speed.cloudflare.com
-- name: 🇳🇱VM-WS-NA🇳🇱NL-185.162.235.250:2054📡PING-138.91-MS | 33.061MB
+- name: 🇳🇱VM-WS-NA🇳🇱NL-185.162.235.250:2054📡PING-116.31-MS | 55.876MB
   server: 185.162.235.250
   port: 2054
   type: vmess
@@ -285,82 +136,105 @@ proxies:
     path: /socket.io
     headers:
       Host: internet.life.com.by
-- name: 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-139.02-MS | 32.665MB
-  server: 60.248.114.188
-  port: 3306
-  type: trojan
-  password: d02058f4f819dced
-  sni: n2.gladns.com
-  skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-139.05-MS | 32.291MB
-  server: 8.211.1.177
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-139.09-MS | 32.116MB
-  server: 60.248.114.188
-  port: 3306
-  type: trojan
-  password: d02058f4f819dced
-  sni: n2.gladns.com
-  skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-139.57-MS | 32.094MB
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-117.46-MS | 47.205MB
   server: 54.93.172.88
   port: 443
   type: trojan
   password: your_password
   sni: aws-ge-frankfurt-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-140.48-MS | 32.028MB
-  server: 8.209.111.119
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-117.54-MS | 42.727MB
+  server: 8.211.2.127
   port: 2087
   type: trojan
   password: 4Telegram-id-DarkVPNpro
   sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
   skip-cert-verify: false
-- name: TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-140.80-MS | 32.001MB
-  server: 16.62.65.57
-  port: 443
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-117.78-MS | 40.778MB
+  server: 8.211.2.127
+  port: 2087
   type: trojan
-  password: your_password
-  sni: aws-ch-zurich-1.f1rocketnode.com
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
   skip-cert-verify: false
-- name: TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-140.99-MS | 31.94MB
-  server: 16.62.65.57
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-ch-zurich-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-141.23-MS | 31.834MB
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-119.71-MS | 36.45MB
   server: 47.91.65.83
   port: 2087
   type: trojan
   password: 4Telegram-id-DarkVPNpro
   sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
   skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-141.57-MS | 31.716MB
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-119.74-MS | 35.725MB
+  server: 47.91.65.83
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-120.37-MS | 35.631MB
   server: 54.93.172.88
   port: 443
   type: trojan
   password: your_password
   sni: aws-ge-frankfurt-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-142.10-MS | 31.712MB
-  server: 78.46.201.146
-  port: 23496
-  type: vmess
-  uuid: 42457af1-e910-4e18-a80c-cc7d50a07be6
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-120.56-MS | 35.604MB
+  server: 8.211.1.177
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-142.29-MS | 31.638MB
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-120.57-MS | 35.386MB
+  server: 8.209.106.117
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-120.59-MS | 35.267MB
+  server: 8.209.106.117
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-120.81-MS | 34.995MB
+  server: 8.209.111.119
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-121.09-MS | 34.265MB
+  server: 8.209.111.119
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-121.13-MS | 34.109MB
+  server: 8.211.1.177
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-121.35-MS | 33.123MB
+  server: 47.254.140.109
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-121.53-MS | 33.09MB
+  server: 47.254.140.109
+  port: 2087
+  type: trojan
+  password: 4Telegram-id-DarkVPNpro
+  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-122.48-MS | 33.061MB
   server: 91.107.173.213
   port: 21212
   type: vmess
@@ -374,21 +248,21 @@ proxies:
     path: /
     headers:
       Host: speed.cloudflare.com
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-143.22-MS | 31.372MB
-  server: 8.211.1.177
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
+- name: 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-122.67-MS | 32.665MB
+  server: 91.107.173.213
+  port: 21212
+  type: vmess
+  uuid: 07f617c8-c8b2-47f4-8898-7d84d046f188
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-145.91-MS | 31.199MB
-  server: 47.91.65.83
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-146.13-MS | 31.102MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: speed.cloudflare.com
+- name: 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-122.86-MS | 32.291MB
   server: 78.46.201.146
   port: 23496
   type: vmess
@@ -400,46 +274,18 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-146.82-MS | 31.044MB
-  server: 47.254.140.109
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
-  skip-cert-verify: false
-- name: TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-147.07-MS | 31.031MB
-  server: 15.160.138.221
+- name: TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-123.11-MS | 32.116MB
+  server: 16.62.65.57
   port: 443
   type: trojan
   password: your_password
-  sni: aws-it-milan-1.f1rocketnode.com
+  sni: aws-ch-zurich-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-149.45-MS | 31.002MB
-  server: 18.100.115.245
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-es-madrid-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-150.58-MS | 30.998MB
-  server: 8.209.106.117
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-150.94-MS | 30.998MB
-  server: 8.209.106.117
-  port: 2087
-  type: trojan
-  password: 4Telegram-id-DarkVPNpro
-  sni: lmpossibl33sponselntelligence-th3retsniper.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇭🇰VM-WS-NA🇭🇰HK-20.187.110.169:12269📡PING-151.53-MS | 30.986MB
-  server: 20.187.110.169
-  port: 12269
+- name: 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-123.75-MS | 32.094MB
+  server: 78.46.201.146
+  port: 23496
   type: vmess
-  uuid: a9e6c988-3b21-4482-a87e-35881b47a2ac
+  uuid: 42457af1-e910-4e18-a80c-cc7d50a07be6
   alterId: 0
   cipher: auto
   tls: false
@@ -447,58 +293,85 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: az.dingtalk.com
-- name: TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-151.60-MS | 30.928MB
-  server: 15.160.138.221
+- name: TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-125.22-MS | 32.028MB
+  server: 16.62.65.57
   port: 443
   type: trojan
   password: your_password
-  sni: aws-it-milan-1.f1rocketnode.com
+  sni: aws-ch-zurich-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-153.14-MS | 30.858MB
+- name: 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-130.51-MS | 32.001MB
   server: 18.100.115.245
   port: 443
   type: trojan
   password: your_password
   sni: aws-es-madrid-1.f1rocketnode.com
   skip-cert-verify: false
-- name: TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-153.37-MS | 30.763MB
+- name: 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-131.80-MS | 31.94MB
+  server: 18.100.115.245
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-es-madrid-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-132.85-MS | 31.834MB
   server: 185.125.171.218
   port: 443
   type: trojan
   password: i8YdP0ivWoz5KEgN
   sni: no-45a81d58.xeovo.net
   skip-cert-verify: false
-- name: TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-153.45-MS | 30.751MB
+- name: TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-132.92-MS | 31.716MB
   server: 185.125.171.218
   port: 443
   type: trojan
   password: i8YdP0ivWoz5KEgN
   sni: no-45a81d58.xeovo.net
   skip-cert-verify: false
-- name: 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-154.24-MS | 30.747MB
-  server: 3.27.95.146
+- name: 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-133.25-MS | 31.712MB
+  server: 103.168.155.19
+  port: 888
+  type: vmess
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-133.25-MS | 31.712MB
+  network: ws
+  ws-opts:
+    path: /je5x3pBN1vez3NQudNkB
+    headers:
+      Host: cdn.cjhh.lol
+- name: TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-133.77-MS | 31.638MB
+  server: 15.160.138.221
   port: 443
   type: trojan
   password: your_password
-  sni: aws-aus-sydney-1.f1rocketnode.com
+  sni: aws-it-milan-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-154.30-MS | 30.731MB
-  server: 3.27.95.146
+- name: TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-133.83-MS | 31.372MB
+  server: 15.160.138.221
   port: 443
   type: trojan
   password: your_password
-  sni: aws-aus-sydney-1.f1rocketnode.com
+  sni: aws-it-milan-1.f1rocketnode.com
   skip-cert-verify: false
-- name: TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-155.44-MS | 30.731MB
-  server: 16.171.12.136
+- name: 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-134.61-MS | 31.199MB
+  server: 43.206.127.212
   port: 443
   type: trojan
   password: your_password
-  sni: aws-se-stockholm-1.f1rocketnode.com
+  sni: aws-jp-tokyo-1.f1rocketnode.com
   skip-cert-verify: false
-- name: VM-WS-NA🇧🇬BG-91.227.77.70:10100📡PING-158.47-MS | 30.678MB
+- name: 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-134.90-MS | 31.102MB
+  server: 43.206.127.212
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-jp-tokyo-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: VM-WS-NA🇧🇬BG-91.227.77.70:10100📡PING-135.50-MS | 31.044MB
   server: 91.227.77.70
   port: 10100
   type: vmess
@@ -512,313 +385,107 @@ proxies:
     path: /
     headers:
       Host: v2node15.bipbupvpn.com
-- name: TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-158.89-MS | 30.666MB
+- name: 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-137.26-MS | 31.031MB
+  server: 103.168.155.19
+  port: 888
+  type: vmess
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-137.26-MS | 31.031MB
+  network: ws
+  ws-opts:
+    path: /je5x3pBN1vez3NQudNkB
+    headers:
+      Host: cdn.cjhh.lol
+- name: TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-140.92-MS | 31.002MB
   server: 16.171.12.136
   port: 443
   type: trojan
   password: your_password
   sni: aws-se-stockholm-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-159.87-MS | 30.625MB
-  server: 16.163.157.177
+- name: TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-141.22-MS | 30.998MB
+  server: 16.171.12.136
   port: 443
   type: trojan
   password: your_password
-  sni: aws-hk-1.f1rocketnode.com
+  sni: aws-se-stockholm-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-159.99-MS | 30.597MB
-  server: 156.251.226.106
-  port: 1111
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vm?ed=2048
-    headers:
-      Host: nm.kxking.eu.org
-- name: 🇦🇺VM-WS-NA🇦🇺AU-158.178.140.68:20653📡PING-160.04-MS | 30.589MB
-  server: 158.178.140.68
-  port: 20653
-  type: vmess
-  uuid: 4b445dc7-3db7-4476-978a-1fb2a4d5c2b0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: microsoft.com
-- name: 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-160.06-MS | 30.589MB
-  server: 156.251.226.106
-  port: 1111
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vm?ed=2048
-    headers:
-      Host: nm.kxking.eu.org
-- name: 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-160.15-MS | 30.566MB
-  server: 16.163.157.177
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-hk-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: TR-WS-NONE🇸🇪SE-91.223.169.117:954📡PING-160.18-MS | 30.534MB
+- name: TR-WS-NONE🇸🇪SE-91.223.169.117:954📡PING-146.49-MS | 30.998MB
   server: 91.223.169.117
   port: 954
   type: trojan
   password: TCQJm6KE0j
   skip-cert-verify: false
-- name: 🇦🇺VM-WS-NA🇦🇺AU-158.178.140.68:20653📡PING-160.96-MS | 30.471MB
-  server: 158.178.140.68
-  port: 20653
+- name: 🇷🇺VM-WS-NA🇷🇺RU-194.87.70.83:2052📡PING-154.80-MS | 30.986MB
+  server: 194.87.70.83
+  port: 2052
   type: vmess
-  uuid: 4b445dc7-3db7-4476-978a-1fb2a4d5c2b0
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /526-ddxDMRvLdlt
     headers:
-      Host: microsoft.com
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-172.13-MS | 30.448MB
-  server: 5.44.249.50
-  port: 3306
-  type: trojan
-  password: 8a5360b3b31229d8
-  sni: n2.gladns.com
-  skip-cert-verify: false
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-172.32-MS | 30.408MB
-  server: 5.44.249.53
-  port: 3306
-  type: trojan
-  password: 3febb05ea76a940f
-  sni: n2.gladns.com
-  skip-cert-verify: false
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-172.34-MS | 30.399MB
-  server: 5.44.249.50
-  port: 3306
-  type: trojan
-  password: 8a5360b3b31229d8
-  sni: n2.gladns.com
-  skip-cert-verify: false
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-172.37-MS | 30.339MB
-  server: 5.44.249.44
-  port: 3306
-  type: trojan
-  password: b84d16a244460e09
-  sni: n2.gladns.com
-  skip-cert-verify: false
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-172.46-MS | 30.312MB
-  server: 5.44.249.44
-  port: 3306
-  type: trojan
-  password: b84d16a244460e09
-  sni: n2.gladns.com
-  skip-cert-verify: false
-- name: 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-172.59-MS | 30.149MB
-  server: 167.99.66.74
-  port: 80
-  type: trojan
-  password: 661bee68-a6ce-45c2-b4c7-55231424e807
-  skip-cert-verify: false
-- name: 🇸🇬VM-WS-NA🇸🇬SG-146.235.16.95:23202📡PING-172.66-MS | 30.042MB
-  server: 146.235.16.95
-  port: 23202
-  type: vmess
-  uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: microsoft.com
-- name: 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-172.72-MS | 30.028MB
-  server: 167.99.66.74
-  port: 80
-  type: trojan
-  password: 661bee68-a6ce-45c2-b4c7-55231424e807
-  skip-cert-verify: false
-- name: 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-172.84-MS | 30.001MB
-  server: 138.2.104.13
-  port: 22239
-  type: vmess
-  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-172.84-MS | 30.001MB
-  network: ws
-  ws-opts:
-    path: /sometimesnaive
-    headers:
-      Host: 0933.763352.top
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-172.84-MS | 29.938MB
-  server: 167.99.66.74
-  port: 443
-  type: trojan
-  password: 661bee68-a6ce-45c2-b4c7-55231424e807
-  sni: vpn.nodehunter.tech
-  skip-cert-verify: false
-- name: 🇸🇬VM-WS-NA🇸🇬SG-146.235.16.95:23202📡PING-172.89-MS | 29.672MB
-  server: 146.235.16.95
-  port: 23202
-  type: vmess
-  uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: microsoft.com
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-173.05-MS | 29.651MB
-  server: 167.99.66.74
-  port: 443
-  type: trojan
-  password: 661bee68-a6ce-45c2-b4c7-55231424e807
-  sni: vpn.nodehunter.tech
-  skip-cert-verify: false
-- name: 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-173.15-MS | 29.525MB
-  server: 138.2.104.13
-  port: 22239
-  type: vmess
-  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-173.15-MS | 29.525MB
-  network: ws
-  ws-opts:
-    path: /sometimesnaive
-    headers:
-      Host: 0933.763352.top
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-173.44-MS | 29.266MB
-  server: 5.44.249.53
-  port: 3306
-  type: trojan
-  password: 3febb05ea76a940f
-  sni: n2.gladns.com
-  skip-cert-verify: false
-- name: 🇺🇸VM-WS-TLS🇺🇸US-23.108.100.103:443📡PING-174.24-MS | 29.236MB
-  server: 23.108.100.103
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇺🇸VM-WS-TLS🇺🇸US-23.108.100.103:443📡PING-174.24-MS | 29.236MB
-  network: ws
-  ws-opts:
-    path: /footers
-    headers:
-      Host: www.40587333.xyz
-- name: VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-179.02-MS | 29.234MB
-  server: 38.54.87.157
-  port: 35551
-  type: vmess
-  uuid: 5cbe40d3-a194-4bcd-9859-c394627d768a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tms.dingtalk.com
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-179.31-MS | 29.225MB
-  server: 18.142.122.247
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-sg-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-180.13-MS | 29.219MB
-  server: 38.54.87.155
-  port: 53587
-  type: vmess
-  uuid: 56869116-2600-40a6-c539-189e5ff1458e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: TR-WS-TLS🇮🇷IR-185.143.234.3:443📡PING-182.35-MS | 29.214MB
-  server: 185.143.234.3
-  port: 443
-  type: trojan
-  password: 41cd6c16-0cd4-4ba9-abd8-bc407344f3ae
-  sni: www.isna.ir
-  skip-cert-verify: false
-- name: TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-182.40-MS | 29.196MB
+      Host: v138a.ai88888.top
+- name: TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-156.18-MS | 30.928MB
   server: 185.143.233.120
   port: 80
   type: trojan
   password: EHCIw54Gs/js5F8itzNYEcXKRE8/py
   skip-cert-verify: false
-- name: TR-WS-TLS🇮🇷IR-185.143.233.120:443📡PING-182.54-MS | 29.022MB
+- name: TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-156.20-MS | 30.858MB
   server: 185.143.233.120
-  port: 443
+  port: 80
   type: trojan
-  password: 204f03f9-9881-4274-843f-4a394b507d25
-  sni: h.migmig.sbs
+  password: EHCIw54Gs/js5F8itzNYEcXKRE8/py
   skip-cert-verify: false
-- name: VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-183.53-MS | 29.015MB
-  server: 38.54.87.155
-  port: 53587
-  type: vmess
-  uuid: 56869116-2600-40a6-c539-189e5ff1458e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: TR-WS-TLS🇮🇷IR-185.143.234.120:443📡PING-184.28-MS | 29.007MB
+- name: TR-WS-TLS🇮🇷IR-185.143.234.120:443📡PING-156.30-MS | 30.763MB
   server: 185.143.234.120
   port: 443
   type: trojan
   password: 204f03f9-9881-4274-843f-4a394b507d25
   sni: h.migmig.sbs
   skip-cert-verify: false
-- name: TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-184.45-MS | 28.904MB
+- name: TR-WS-TLS🇮🇷IR-185.143.233.120:443📡PING-158.52-MS | 30.751MB
   server: 185.143.233.120
-  port: 80
+  port: 443
   type: trojan
-  password: EHCIw54Gs/js5F8itzNYEcXKRE8/py
+  password: 204f03f9-9881-4274-843f-4a394b507d25
+  sni: h.migmig.sbs
   skip-cert-verify: false
-- name: 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-187.80-MS | 28.869MB
-  server: 103.140.137.11
-  port: 18443
+- name: TR-WS-TLS🇮🇷IR-185.143.234.3:443📡PING-161.90-MS | 30.747MB
+  server: 185.143.234.3
+  port: 443
+  type: trojan
+  password: 41cd6c16-0cd4-4ba9-abd8-bc407344f3ae
+  sni: www.isna.ir
+  skip-cert-verify: false
+- name: 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-164.90-MS | 30.731MB
+  server: 60.248.114.188
+  port: 3306
+  type: trojan
+  password: d02058f4f819dced
+  sni: n2.gladns.com
+  skip-cert-verify: false
+- name: 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-164.96-MS | 30.731MB
+  server: 60.248.114.188
+  port: 3306
+  type: trojan
+  password: d02058f4f819dced
+  sni: n2.gladns.com
+  skip-cert-verify: false
+- name: 🇭🇰VM-WS-NA🇭🇰HK-20.187.110.169:12269📡PING-175.60-MS | 30.678MB
+  server: 20.187.110.169
+  port: 12269
   type: vmess
-  uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576
+  uuid: a9e6c988-3b21-4482-a87e-35881b47a2ac
   alterId: 0
   cipher: auto
   tls: false
@@ -826,26 +493,233 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-187.90-MS | 28.802MB
-  server: 103.140.137.11
-  port: 18443
-  type: vmess
-  uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: TR-WS-TLS🇦🇷AR-15.220.121.237:443📡PING-189.15-MS | 28.785MB
-  server: 15.220.121.237
+    headers:
+      Host: az.dingtalk.com
+- name: 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-179.79-MS | 30.666MB
+  server: 3.27.95.146
   port: 443
   type: trojan
   password: your_password
-  sni: aws-ar-buenosaires-1.f1rocketnode.com
+  sni: aws-aus-sydney-1.f1rocketnode.com
   skip-cert-verify: false
-- name: VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-189.16-MS | 28.776MB
+- name: 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-183.68-MS | 30.625MB
+  server: 3.27.95.146
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-aus-sydney-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-184.70-MS | 30.597MB
+  server: 16.163.157.177
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-hk-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-185.15-MS | 30.589MB
+  server: 16.163.157.177
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-hk-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-186.15-MS | 30.589MB
+  server: 156.251.226.106
+  port: 1111
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vm?ed=2048
+    headers:
+      Host: nm.kxking.eu.org
+- name: 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-186.24-MS | 30.566MB
+  server: 156.251.226.106
+  port: 1111
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vm?ed=2048
+    headers:
+      Host: nm.kxking.eu.org
+- name: 🇭🇰VM-WS-NA🇭🇰HK-58.152.44.22:32806📡PING-190.56-MS | 30.534MB
+  server: 58.152.44.22
+  port: 32806
+  type: vmess
+  uuid: 9b9e582b-5755-4ecd-839b-bff55bfd7ab1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8707U175541650484.m.bilibilivideoapi.com
+- name: 🇭🇰VM-WS-NA🇭🇰HK-58.152.44.22:32806📡PING-191.71-MS | 30.471MB
+  server: 58.152.44.22
+  port: 32806
+  type: vmess
+  uuid: 9b9e582b-5755-4ecd-839b-bff55bfd7ab1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8707U175541650484.m.bilibilivideoapi.com
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-196.70-MS | 30.448MB
+  server: 5.44.249.44
+  port: 3306
+  type: trojan
+  password: b84d16a244460e09
+  sni: n2.gladns.com
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-196.70-MS | 30.408MB
+  server: 5.44.249.53
+  port: 3306
+  type: trojan
+  password: 3febb05ea76a940f
+  sni: n2.gladns.com
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-196.88-MS | 30.399MB
+  server: 5.44.249.50
+  port: 3306
+  type: trojan
+  password: 8a5360b3b31229d8
+  sni: n2.gladns.com
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-197.09-MS | 30.339MB
+  server: 5.44.249.50
+  port: 3306
+  type: trojan
+  password: 8a5360b3b31229d8
+  sni: n2.gladns.com
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-197.40-MS | 30.312MB
+  server: 167.99.66.74
+  port: 443
+  type: trojan
+  password: 661bee68-a6ce-45c2-b4c7-55231424e807
+  sni: vpn.nodehunter.tech
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-197.41-MS | 30.149MB
+  server: 167.99.66.74
+  port: 443
+  type: trojan
+  password: 661bee68-a6ce-45c2-b4c7-55231424e807
+  sni: vpn.nodehunter.tech
+  skip-cert-verify: false
+- name: 🇸🇬VM-WS-NONE🇸🇬SG-146.190.110.92:22118📡PING-197.46-MS | 30.042MB
+  server: 146.190.110.92
+  port: 22118
+  type: vmess
+  uuid: b800fba6-2835-4b44-83c2-5275fdbb24ba
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: media-exp1.licdn.com
+- name: 🇸🇬VM-WS-NONE🇸🇬SG-146.190.110.92:22118📡PING-197.52-MS | 30.028MB
+  server: 146.190.110.92
+  port: 22118
+  type: vmess
+  uuid: b800fba6-2835-4b44-83c2-5275fdbb24ba
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: media-exp1.licdn.com
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-198.52-MS | 30.001MB
+  server: 18.142.122.247
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-sg-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-198.52-MS | 29.938MB
+  server: 5.44.249.53
+  port: 3306
+  type: trojan
+  password: 3febb05ea76a940f
+  sni: n2.gladns.com
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-198.77-MS | 29.672MB
+  server: 18.142.122.247
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-sg-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-199.45-MS | 29.651MB
+  server: 5.44.249.44
+  port: 3306
+  type: trojan
+  password: b84d16a244460e09
+  sni: n2.gladns.com
+  skip-cert-verify: false
+- name: 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-201.40-MS | 29.525MB
+  server: 167.99.66.74
+  port: 80
+  type: trojan
+  password: 661bee68-a6ce-45c2-b4c7-55231424e807
+  skip-cert-verify: false
+- name: 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-202.03-MS | 29.266MB
+  server: 138.2.104.13
+  port: 22239
+  type: vmess
+  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-202.03-MS | 29.266MB
+  network: ws
+  ws-opts:
+    path: /sometimesnaive
+    headers:
+      Host: 0933.763352.top
+- name: 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-202.16-MS | 29.236MB
+  server: 138.2.104.13
+  port: 22239
+  type: vmess
+  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-202.16-MS | 29.236MB
+  network: ws
+  ws-opts:
+    path: /sometimesnaive
+    headers:
+      Host: 0933.763352.top
+- name: 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-207.63-MS | 29.234MB
+  server: 167.99.66.74
+  port: 80
+  type: trojan
+  password: 661bee68-a6ce-45c2-b4c7-55231424e807
+  skip-cert-verify: false
+- name: VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-209.30-MS | 29.225MB
   server: 38.54.87.157
   port: 35551
   type: vmess
@@ -859,239 +733,59 @@ proxies:
     path: /
     headers:
       Host: tms.dingtalk.com
-- name: VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-190.56-MS | 28.662MB
-  server: 109.248.25.59
-  port: 29064
+- name: VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-209.45-MS | 29.219MB
+  server: 38.54.87.157
+  port: 35551
   type: vmess
-  uuid: 8958440c-aa86-4ff1-8e88-5c7a052d5961
+  uuid: 5cbe40d3-a194-4bcd-9859-c394627d768a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ss
+    path: /
     headers:
-      Host: internet.life.com.by
-- name: TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-192.42-MS | 28.606MB
+      Host: tms.dingtalk.com
+- name: VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-210.21-MS | 29.214MB
+  server: 38.54.87.155
+  port: 53587
+  type: vmess
+  uuid: 56869116-2600-40a6-c539-189e5ff1458e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-210.55-MS | 29.196MB
+  server: 38.54.87.155
+  port: 53587
+  type: vmess
+  uuid: 56869116-2600-40a6-c539-189e5ff1458e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-214.54-MS | 29.022MB
   server: 43.218.139.54
   port: 443
   type: trojan
   password: your_password
   sni: aws-id-jakarta-1.f1rocketnode.com
   skip-cert-verify: false
-- name: TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-192.48-MS | 28.576MB
+- name: TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-215.98-MS | 29.015MB
   server: 43.218.139.54
   port: 443
   type: trojan
   password: your_password
   sni: aws-id-jakarta-1.f1rocketnode.com
   skip-cert-verify: false
-- name: TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-203.55-MS | 28.528MB
-  server: 15.220.240.255
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-th-bkk-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-203.68-MS | 28.52MB
-  server: 15.220.240.255
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-th-bkk-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-208.94-MS | 28.503MB
-  server: 38.54.82.126
-  port: 41657
-  type: vmess
-  uuid: 5a2aa5ab-50d9-417b-af8f-b5d9b0957dac
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /5a2aa5ab-50d9-417b-af8f-b5d9b0957dac
-    headers:
-      Host: tms.dingtalk.com
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-209.46-MS | 28.502MB
-  server: 96.0.146.134
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-ph-mnl-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-210.05-MS | 28.497MB
-  server: 96.0.146.134
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-ph-mnl-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-211.67-MS | 28.418MB
-  server: 38.54.82.126
-  port: 41657
-  type: vmess
-  uuid: 5a2aa5ab-50d9-417b-af8f-b5d9b0957dac
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /5a2aa5ab-50d9-417b-af8f-b5d9b0957dac
-    headers:
-      Host: tms.dingtalk.com
-- name: 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-231.55-MS | 28.386MB
-  server: 43.205.109.9
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-in-mumbai-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-231.59-MS | 28.274MB
-  server: 43.205.109.9
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-in-mumbai-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-234.63-MS | 28.24MB
-  server: 31.14.114.53
-  port: 20340
-  type: vmess
-  uuid: 73625d6c-1f00-4ecf-9788-a00fe9e399ec
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.53:17275📡PING-235.09-MS | 28.203MB
-  server: 31.14.114.53
-  port: 17275
-  type: vmess
-  uuid: 33015932-596a-4dbd-ad1f-75773509dc02
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.52:22925📡PING-235.39-MS | 28.202MB
-  server: 31.14.114.52
-  port: 22925
-  type: vmess
-  uuid: 92a61d17-f711-442a-a3a8-8a479a059420
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-235.51-MS | 28.162MB
-  server: 31.14.114.53
-  port: 32644
-  type: vmess
-  uuid: ceac8fc4-3de5-4fba-ba33-5483f29ce78e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-236.00-MS | 28.12MB
-  server: 31.14.114.53
-  port: 20340
-  type: vmess
-  uuid: 73625d6c-1f00-4ecf-9788-a00fe9e399ec
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.51:16557📡PING-236.15-MS | 28.11MB
-  server: 31.14.114.51
-  port: 16557
-  type: vmess
-  uuid: 40b6a6cd-0621-42bd-806d-720023ca6a20
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.55:39986📡PING-237.20-MS | 28.093MB
-  server: 31.14.114.55
-  port: 39986
-  type: vmess
-  uuid: 3b137b0d-a703-46e0-9b10-27b3efc29002
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-238.01-MS | 28.06MB
-  server: 31.14.114.56
-  port: 54618
-  type: vmess
-  uuid: fdd05d8f-5197-455f-83f9-2c97d3e17a8a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-238.36-MS | 28.059MB
-  server: 31.14.114.53
-  port: 32644
-  type: vmess
-  uuid: ceac8fc4-3de5-4fba-ba33-5483f29ce78e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-238.48-MS | 28.053MB
-  server: 31.14.114.56
-  port: 54618
-  type: vmess
-  uuid: fdd05d8f-5197-455f-83f9-2c97d3e17a8a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-239.54-MS | 27.969MB
-  server: 3.29.95.54
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-uae-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-240.17-MS | 27.954MB
-  server: 3.29.95.54
-  port: 443
-  type: trojan
-  password: your_password
-  sni: aws-uae-1.f1rocketnode.com
-  skip-cert-verify: false
-- name: VM-WS-NA🇮🇷IR-31.14.114.53:10497📡PING-242.15-MS | 27.947MB
+- name: VM-WS-NA🇮🇷IR-31.14.114.53:10497📡PING-216.29-MS | 29.007MB
   server: 31.14.114.53
   port: 10497
   type: vmess
@@ -1103,11 +797,11 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-243.53-MS | 27.945MB
-  server: 31.14.114.56
-  port: 26295
+- name: VM-WS-NA🇮🇷IR-31.14.114.55:39986📡PING-216.48-MS | 28.904MB
+  server: 31.14.114.55
+  port: 39986
   type: vmess
-  uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309
+  uuid: 3b137b0d-a703-46e0-9b10-27b3efc29002
   alterId: 0
   cipher: auto
   tls: false
@@ -1115,11 +809,11 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-243.77-MS | 27.897MB
-  server: 31.14.114.56
-  port: 26295
+- name: VM-WS-NA🇮🇷IR-31.14.114.51:16557📡PING-216.95-MS | 28.869MB
+  server: 31.14.114.51
+  port: 16557
   type: vmess
-  uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309
+  uuid: 40b6a6cd-0621-42bd-806d-720023ca6a20
   alterId: 0
   cipher: auto
   tls: false
@@ -1127,11 +821,11 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: VM-WS-NA🇮🇷IR-31.14.114.53:37517📡PING-244.36-MS | 27.88MB
-  server: 31.14.114.53
-  port: 37517
+- name: 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-217.12-MS | 28.802MB
+  server: 103.140.137.11
+  port: 18443
   type: vmess
-  uuid: 7865d3db-58fc-4caf-b5f2-ea1733a5d4aa
+  uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576
   alterId: 0
   cipher: auto
   tls: false
@@ -1139,35 +833,31 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-244.40-MS | 27.801MB
-  server: 129.154.228.4
-  port: 8087
+- name: 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-217.86-MS | 28.785MB
+  server: 103.140.137.11
+  port: 18443
   type: vmess
-  uuid: c71a6f8e-2faf-4fd0-bdb9-9bc76dac018b
+  uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
-    headers:
-      Host: m.zoom.us
-- name: 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-252.32-MS | 27.774MB
-  server: 129.154.228.4
-  port: 8087
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.52:22925📡PING-218.04-MS | 28.776MB
+  server: 31.14.114.52
+  port: 22925
   type: vmess
-  uuid: c71a6f8e-2faf-4fd0-bdb9-9bc76dac018b
+  uuid: 92a61d17-f711-442a-a3a8-8a479a059420
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
-    headers:
-      Host: m.zoom.us
-- name: VM-WS-NA🇮🇷IR-31.14.114.53:43017📡PING-253.81-MS | 27.76MB
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.53:43017📡PING-218.35-MS | 28.662MB
   server: 31.14.114.53
   port: 43017
   type: vmess
@@ -1179,33 +869,253 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬VM-WS-NA🇸🇬SG-51.79.145.112:80📡PING-271.51-MS | 27.741MB
-  server: 51.79.145.112
-  port: 80
+- name: VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-218.81-MS | 28.606MB
+  server: 31.14.114.53
+  port: 20340
   type: vmess
-  uuid: 3c906bab-3b86-4fa2-b7a3-f2c60e159db4
+  uuid: 73625d6c-1f00-4ecf-9788-a00fe9e399ec
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess/
-- name: TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-277.12-MS | 27.726MB
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.53:17275📡PING-219.12-MS | 28.576MB
+  server: 31.14.114.53
+  port: 17275
+  type: vmess
+  uuid: 33015932-596a-4dbd-ad1f-75773509dc02
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-219.25-MS | 28.528MB
+  server: 31.14.114.53
+  port: 32644
+  type: vmess
+  uuid: ceac8fc4-3de5-4fba-ba33-5483f29ce78e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-219.68-MS | 28.52MB
+  server: 31.14.114.53
+  port: 32644
+  type: vmess
+  uuid: ceac8fc4-3de5-4fba-ba33-5483f29ce78e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-220.11-MS | 28.503MB
+  server: 31.14.114.53
+  port: 20340
+  type: vmess
+  uuid: 73625d6c-1f00-4ecf-9788-a00fe9e399ec
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-220.22-MS | 28.502MB
+  server: 31.14.114.56
+  port: 54618
+  type: vmess
+  uuid: fdd05d8f-5197-455f-83f9-2c97d3e17a8a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.53:37517📡PING-221.75-MS | 28.497MB
+  server: 31.14.114.53
+  port: 37517
+  type: vmess
+  uuid: 7865d3db-58fc-4caf-b5f2-ea1733a5d4aa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-221.82-MS | 28.418MB
+  server: 31.14.114.56
+  port: 54618
+  type: vmess
+  uuid: fdd05d8f-5197-455f-83f9-2c97d3e17a8a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-225.28-MS | 28.386MB
+  server: 3.29.95.54
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-uae-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-226.96-MS | 28.274MB
+  server: 15.220.240.255
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-th-bkk-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-227.20-MS | 28.24MB
+  server: 31.14.114.56
+  port: 26295
+  type: vmess
+  uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-227.71-MS | 28.203MB
+  server: 96.0.146.134
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-ph-mnl-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-227.86-MS | 28.202MB
+  server: 3.29.95.54
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-uae-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-227.90-MS | 28.162MB
+  server: 31.14.114.56
+  port: 26295
+  type: vmess
+  uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-228.89-MS | 28.12MB
+  server: 96.0.146.134
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-ph-mnl-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-228.98-MS | 28.11MB
+  server: 129.154.228.4
+  port: 8087
+  type: vmess
+  uuid: c71a6f8e-2faf-4fd0-bdb9-9bc76dac018b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: m.zoom.us
+- name: 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-229.11-MS | 28.093MB
+  server: 129.154.228.4
+  port: 8087
+  type: vmess
+  uuid: c71a6f8e-2faf-4fd0-bdb9-9bc76dac018b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: m.zoom.us
+- name: TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-229.52-MS | 28.06MB
+  server: 15.220.240.255
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-th-bkk-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-234.70-MS | 28.059MB
+  server: 38.54.82.126
+  port: 41657
+  type: vmess
+  uuid: 5a2aa5ab-50d9-417b-af8f-b5d9b0957dac
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /5a2aa5ab-50d9-417b-af8f-b5d9b0957dac
+    headers:
+      Host: tms.dingtalk.com
+- name: VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-234.79-MS | 28.053MB
+  server: 38.54.82.126
+  port: 41657
+  type: vmess
+  uuid: 5a2aa5ab-50d9-417b-af8f-b5d9b0957dac
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /5a2aa5ab-50d9-417b-af8f-b5d9b0957dac
+    headers:
+      Host: tms.dingtalk.com
+- name: 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-238.14-MS | 27.969MB
+  server: 43.205.109.9
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-in-mumbai-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-238.40-MS | 27.954MB
+  server: 43.205.109.9
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-in-mumbai-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-258.26-MS | 27.947MB
   server: 13.244.104.87
   port: 443
   type: trojan
   password: your_password
   sni: aws-za-capetown-1.f1rocketnode.com
   skip-cert-verify: false
-- name: TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-277.66-MS | 27.709MB
+- name: TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-258.27-MS | 27.945MB
   server: 13.244.104.87
   port: 443
   type: trojan
   password: your_password
   sni: aws-za-capetown-1.f1rocketnode.com
   skip-cert-verify: false
-- name: VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-300.92-MS | 27.709MB
+- name: VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-310.85-MS | 27.897MB
   server: 109.248.25.59
   port: 29064
   type: vmess
@@ -1219,342 +1129,35 @@ proxies:
     path: /ss
     headers:
       Host: internet.life.com.by
-- name: 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-047.17-MS | 27.642MB
-  server: 45.63.106.86
-  port: 27025
+- name: VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-318.45-MS | 27.88MB
+  server: 109.248.25.59
+  port: 29064
   type: vmess
-  uuid: b8d663ca-49de-4259-8be8-cbfc26fa27be
+  uuid: 8958440c-aa86-4ff1-8e88-5c7a052d5961
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  servername: 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-047.17-MS | 27.642MB
   network: ws
   ws-opts:
-    path: /ws567
+    path: /ss
     headers:
-      Host: nftsunday.xyz
-- name: 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-047.10-MS | 27.499MB
-  server: 45.63.106.86
-  port: 27025
-  type: vmess
-  uuid: b8d663ca-49de-4259-8be8-cbfc26fa27be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-047.10-MS | 27.499MB
-  network: ws
-  ws-opts:
-    path: /ws567
-    headers:
-      Host: nftsunday.xyz
-- name: 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-037.56-MS | 27.461MB
+      Host: internet.life.com.by
+- name: 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-047.45-MS | 27.801MB
   server: 34.222.204.128
   port: 443
   type: trojan
   password: your_password
   sni: aws-us-oregon-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-037.31-MS | 27.444MB
+- name: 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-047.35-MS | 27.774MB
   server: 34.222.204.128
   port: 443
   type: trojan
   password: your_password
   sni: aws-us-oregon-1.f1rocketnode.com
   skip-cert-verify: false
-- name: 🇺🇸VM-WS-NA🇺🇸US-205.185.125.200:11451📡PING-029.70-MS | 27.426MB
-  server: 205.185.125.200
-  port: 11451
-  type: vmess
-  uuid: 165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: TR-WS-TLS🏴‍☠️NA-104.20.175.214:443📡PING-020.76-MS | 27.35MB
-  server: 104.20.175.214
-  port: 443
-  type: trojan
-  password: 9iiN39jgvc
-  sni: Rev.EfnTen.top
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.25.254.105:443📡PING-020.67-MS | 27.346MB
-  server: 104.25.254.105
-  port: 443
-  type: trojan
-  password: a3f6a1ba-2b87-4f08-b56d-4a1faf29e8a5
-  sni: cdn.biglog.sbs
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-018.39-MS | 27.277MB
-  server: 104.18.202.232
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: sftp.pardazesh.tech
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.17.42.10:443📡PING-018.24-MS | 27.204MB
-  server: 104.17.42.10
-  port: 443
-  type: trojan
-  password: 09a7c68d-3a50-4fa8-b673-9f45214ec951
-  sni: hamrah.ir0.ir
-  skip-cert-verify: false
-- name: 🇺🇸VM-WS-TLS🇺🇸US-142.4.100.202:30000📡PING-018.10-MS | 27.175MB
-  server: 142.4.100.202
-  port: 30000
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇺🇸VM-WS-TLS🇺🇸US-142.4.100.202:30000📡PING-018.10-MS | 27.175MB
-  network: ws
-  ws-opts:
-    path: /path/1696944806961
-    headers:
-      Host: www.22567471.xyz
-- name: TR-WS-TLS🏴‍☠️NA-104.16.32.142:443📡PING-017.54-MS | 27.166MB
-  server: 104.16.32.142
-  port: 443
-  type: trojan
-  password: f68b1ea9-3c4e-405a-98b1-35ee3db36000
-  sni: tws23.kallepache.store
-  skip-cert-verify: false
-- name: VM-WS-NA🏴‍☠️NA-104.16.68.38:2052📡PING-017.00-MS | 27.149MB
-  server: 104.16.68.38
-  port: 2052
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu.wx.alue.link
-- name: TR-WS-TLS🏴‍☠️NA-104.18.203.232:443📡PING-017.00-MS | 27.129MB
-  server: 104.18.203.232
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: sftp.pardazesh.tech
-  skip-cert-verify: false
-- name: 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-016.94-MS | 27.118MB
-  server: 188.114.96.3
-  port: 443
-  type: trojan
-  password: LDfff2qARe
-  sni: t-me-v2line-kgtf0g4otiw5qfkdv52ww1lv7zq6hh97c3pq3yrtfeswvrdwexp.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  skip-cert-verify: false
-- name: 🇺🇸VM-WS-NA🇺🇸US-141.148.149.116:20353📡PING-016.90-MS | 27.104MB
-  server: 141.148.149.116
-  port: 20353
-  type: vmess
-  uuid: 0672c1be-77a9-43a9-8d32-6be8c3cba84a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: microsoft.com
-- name: TR-WS-TLS🏴‍☠️NA-104.18.203.232:443📡PING-016.90-MS | 27.052MB
-  server: 104.18.203.232
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: sftp.pardazesh.tech
-  skip-cert-verify: false
-- name: TR-WS-TLS🇨🇷CR-190.93.246.241:2087📡PING-016.89-MS | 27.008MB
-  server: 190.93.246.241
-  port: 2087
-  type: trojan
-  password: f0c15464-3efa-4a05-a82a-68eb2d05488e
-  sni: uk3.trojanvpn.de
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.16.68.38:443📡PING-016.79-MS | 26.955MB
-  server: 104.16.68.38
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: sftp.pardazesh.tech
-  skip-cert-verify: false
-- name: VM-WS-NA🏴‍☠️NA-104.16.29.34:8080📡PING-016.77-MS | 26.951MB
-  server: 104.16.29.34
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-016.75-MS | 26.885MB
-  server: 188.114.96.3
-  port: 443
-  type: trojan
-  password: LDfff2qARe
-  sni: t-me-v2line-kgtf0g4otiw5qfkdv52ww1lv7zq6hh97c3pq3yrtfeswvrdwexp.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-016.71-MS | 26.832MB
-  server: 104.18.202.232
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: sftp.pardazesh.tech
-  skip-cert-verify: false
-- name: VM-WS-NA🏴‍☠️NA-104.16.24.34:8080📡PING-016.67-MS | 26.795MB
-  server: 104.16.24.34
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: VM-WS-NA🏴‍☠️NA-104.17.62.27:2082📡PING-016.66-MS | 26.725MB
-  server: 104.17.62.27
-  port: 2082
-  type: vmess
-  uuid: 04afca06-0786-4216-a7a2-333b7a540329
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /asdas
-    headers:
-      Host: cf-de2.doushimeng.com
-- name: TR-WS-TLS🏴‍☠️NA-104.16.68.38:443📡PING-016.66-MS | 26.658MB
-  server: 104.16.68.38
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: sftp.pardazesh.tech
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.16.67.38:443📡PING-016.65-MS | 26.51MB
-  server: 104.16.67.38
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: ftp.pardazesh.tech
-  skip-cert-verify: false
-- name: VM-WS-NA🏴‍☠️NA-104.16.25.34:8080📡PING-016.63-MS | 26.454MB
-  server: 104.16.25.34
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: 🇺🇸VM-WS-NA🇺🇸US-206.168.240.113:35425📡PING-016.61-MS | 26.393MB
-  server: 206.168.240.113
-  port: 35425
-  type: vmess
-  uuid: 78e34495-c417-48d9-e592-8625f26611c7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /jdbp606
-- name: VM-WS-NA🏴‍☠️NA-104.16.1.35:8080📡PING-016.58-MS | 26.353MB
-  server: 104.16.1.35
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: VM-WS-NA🏴‍☠️NA-104.16.27.34:8080📡PING-016.58-MS | 26.32MB
-  server: 104.16.27.34
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: TR-WS-TLS🏴‍☠️NA-104.16.219.230:443📡PING-016.58-MS | 26.272MB
-  server: 104.16.219.230
-  port: 443
-  type: trojan
-  password: 09a7c68d-3a50-4fa8-b673-9f45214ec951
-  sni: hamrah.ir0.ir
-  skip-cert-verify: false
-- name: TR-WS-NA🏴‍☠️NA-104.17.238.164:443📡PING-016.54-MS | 26.227MB
-  server: 104.17.238.164
-  port: 443
-  type: trojan
-  password: 4d706727-996f-4427-930d-60f3bd414cf9
-  sni: c2mt.ciscocdn1.live
-  skip-cert-verify: false
-- name: VM-WS-NA🏴‍☠️NA-104.16.26.34:8080📡PING-016.54-MS | 26.189MB
-  server: 104.16.26.34
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: VM-WS-NA🏴‍☠️NA-104.17.62.27:2082📡PING-016.54-MS | 26.123MB
-  server: 104.17.62.27
-  port: 2082
-  type: vmess
-  uuid: 04afca06-0786-4216-a7a2-333b7a540329
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /asdas
-    headers:
-      Host: cf-de2.doushimeng.com
-- name: 🇺🇸VM-WS-NA🇺🇸US-192.18.133.132:8085📡PING-016.53-MS | 26.079MB
+- name: 🇺🇸VM-WS-NA🇺🇸US-192.18.133.132:8085📡PING-045.65-MS | 27.76MB
   server: 192.18.133.132
   port: 8085
   type: vmess
@@ -1568,63 +1171,223 @@ proxies:
     path: /dege
     headers:
       Host: shs.sdxpay.cn
-- name: TR-WS-NA🏴‍☠️NA-104.17.141.179:443📡PING-016.50-MS | 26.07MB
-  server: 104.17.141.179
+- name: 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-045.51-MS | 27.741MB
+  server: 15.181.162.1
   port: 443
   type: trojan
-  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
-  sni: c3mc.ciscocdn1.live
+  password: your_password
+  sni: aws-us-nyc-1.f1rocketnode.com
   skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.17.88.212:443📡PING-016.49-MS | 26.065MB
-  server: 104.17.88.212
+- name: 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-045.40-MS | 27.726MB
+  server: 15.181.162.1
   port: 443
   type: trojan
-  password: 09a7c68d-3a50-4fa8-b673-9f45214ec951
-  sni: hamrah.ir0.ir
+  password: your_password
+  sni: aws-us-nyc-1.f1rocketnode.com
   skip-cert-verify: false
-- name: VM-WS-NA🏴‍☠️NA-104.16.28.34:8080📡PING-016.49-MS | 26.035MB
-  server: 104.16.28.34
-  port: 8080
+- name: 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-044.57-MS | 27.709MB
+  server: 45.63.106.86
+  port: 27025
   type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
+  uuid: b8d663ca-49de-4259-8be8-cbfc26fa27be
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-044.57-MS | 27.709MB
+  network: ws
+  ws-opts:
+    path: /ws567
+    headers:
+      Host: nftsunday.xyz
+- name: 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-044.42-MS | 27.709MB
+  server: 45.63.106.86
+  port: 27025
+  type: vmess
+  uuid: b8d663ca-49de-4259-8be8-cbfc26fa27be
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-044.42-MS | 27.709MB
+  network: ws
+  ws-opts:
+    path: /ws567
+    headers:
+      Host: nftsunday.xyz
+- name: 🇺🇸VM-WS-TLS🇺🇸US-142.4.100.202:30000📡PING-044.20-MS | 27.642MB
+  server: 142.4.100.202
+  port: 30000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇺🇸VM-WS-TLS🇺🇸US-142.4.100.202:30000📡PING-044.20-MS | 27.642MB
+  network: ws
+  ws-opts:
+    path: /path/1696944806961
+    headers:
+      Host: www.22567471.xyz
+- name: 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-042.51-MS | 27.499MB
+  server: 35.183.238.42
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-ca-central-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-042.32-MS | 27.461MB
+  server: 35.183.238.42
+  port: 443
+  type: trojan
+  password: your_password
+  sni: aws-ca-central-1.f1rocketnode.com
+  skip-cert-verify: false
+- name: 🇺🇸VM-WS-NA🇺🇸US-205.185.125.200:11451📡PING-041.19-MS | 27.444MB
+  server: 205.185.125.200
+  port: 11451
+  type: vmess
+  uuid: 165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /v?ed=2048
+    path: /
+- name: 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-040.40-MS | 27.426MB
+  server: 164.90.130.217
+  port: 13337
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-040.40-MS | 27.426MB
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-039.95-MS | 27.35MB
+  server: 164.90.130.217
+  port: 13337
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-039.95-MS | 27.35MB
+  network: ws
+  ws-opts:
+    path: /
+- name: VM-WS-TLS🏴‍☠️NA-162.159.44.26:443📡PING-037.78-MS | 27.346MB
+  server: 162.159.44.26
+  port: 443
+  type: vmess
+  uuid: 6B21EBEE-17AD-4B04-B498-561D5B4CA0EB
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: VM-WS-TLS🏴‍☠️NA-162.159.44.26:443📡PING-037.78-MS | 27.346MB
+  network: ws
+  ws-opts:
+    path: /speedtest
     headers:
-      Host: us2.tashancloud.link
-- name: VM-WS-NA🏴‍☠️NA-104.18.203.232:80📡PING-016.46-MS | 26.017MB
-  server: 104.18.203.232
+      Host: fn.mostafago.tk
+- name: 🇺🇸VM-WS-NA🇺🇸US-66.42.100.214:60222📡PING-037.36-MS | 27.277MB
+  server: 66.42.100.214
+  port: 60222
+  type: vmess
+  uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇺🇸VM-WS-NA🇺🇸US-66.42.100.214:60222📡PING-037.33-MS | 27.204MB
+  server: 66.42.100.214
+  port: 60222
+  type: vmess
+  uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-033.65-MS | 27.175MB
+  server: 129.80.185.15
+  port: 32733
+  type: vmess
+  uuid: fb9da0cf-5f31-47e7-f7ad-1270173faab1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /fb9da0cf
+- name: 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-033.60-MS | 27.166MB
+  server: 129.80.185.15
+  port: 32733
+  type: vmess
+  uuid: fb9da0cf-5f31-47e7-f7ad-1270173faab1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /fb9da0cf
+- name: TR-WS-TLS🏴‍☠️NA-162.159.137.232:443📡PING-018.96-MS | 27.149MB
+  server: 162.159.137.232
+  port: 443
+  type: trojan
+  password: a3f6a1ba-2b87-4f08-b56d-4a1faf29e8a5
+  sni: cdn.biglog.sbs
+  skip-cert-verify: false
+- name: 🇺🇸VM-WS-NA🇺🇸US-172.67.57.252:80📡PING-017.59-MS | 27.129MB
+  server: 172.67.57.252
   port: 80
   type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
+  uuid: 6e0f4bcb-8df7-48b5-ba9f-bd3d9f3f2eff
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /@hopev2ray،@hopev2ray
+    path: /
     headers:
-      Host: de1vm.cdn-03.live
-- name: VM-WS-NA🏴‍☠️NA-104.16.0.35:8080📡PING-016.44-MS | 26.0MB
-  server: 104.16.0.35
-  port: 8080
+      Host: jd.shabijichang.com
+- name: TR-WS-TLS🏴‍☠️NA-104.21.19.24:443📡PING-017.24-MS | 27.118MB
+  server: 104.21.19.24
+  port: 443
+  type: trojan
+  password: i8YdP0ivWoz5KEgN
+  sni: nl-3f728889.xeovo.org
+  skip-cert-verify: false
+- name: VM-WS-NA🏴‍☠️NA-104.17.159.62:80📡PING-016.87-MS | 27.104MB
+  server: 104.17.159.62
+  port: 80
   type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
+  uuid: 6e0f4bcb-8df7-48b5-ba9f-bd3d9f3f2eff
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /v?ed=2048
+    path: /
     headers:
-      Host: us2.tashancloud.link
-- name: VM-WS-NA🏴‍☠️NA-104.16.3.35:8080📡PING-016.41-MS | 25.997MB
+      Host: jd.shabijichang.com
+- name: VM-WS-NA🏴‍☠️NA-104.16.3.35:8080📡PING-016.79-MS | 27.052MB
   server: 104.16.3.35
   port: 8080
   type: vmess
@@ -1638,282 +1401,7 @@ proxies:
     path: /v?ed=2048
     headers:
       Host: us2.tashancloud.link
-- name: TR-WS-NA🏴‍☠️NA-104.18.103.113:443📡PING-016.38-MS | 25.996MB
-  server: 104.18.103.113
-  port: 443
-  type: trojan
-  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
-  sni: c3mc.ciscocdn1.live
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.16.67.38:443📡PING-016.38-MS | 25.974MB
-  server: 104.16.67.38
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: ftp.pardazesh.tech
-  skip-cert-verify: false
-- name: VM-WS-NA🏴‍☠️NA-104.16.31.34:8080📡PING-016.36-MS | 25.97MB
-  server: 104.16.31.34
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: TR-WS-TLS🏴‍☠️NA-104.16.183.101:443📡PING-016.34-MS | 25.93MB
-  server: 104.16.183.101
-  port: 443
-  type: trojan
-  password: f68b1ea9-3c4e-405a-98b1-35ee3db36000
-  sni: tws23.kallepache.store
-  skip-cert-verify: false
-- name: VM-WS-NA🏴‍☠️NA-104.16.30.34:8080📡PING-016.28-MS | 25.894MB
-  server: 104.16.30.34
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: VM-WS-NA🏴‍☠️NA-104.16.2.35:8080📡PING-016.15-MS | 25.883MB
-  server: 104.16.2.35
-  port: 8080
-  type: vmess
-  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v?ed=2048
-    headers:
-      Host: us2.tashancloud.link
-- name: TR-WS-TLS🇨🇷CR-190.93.246.241:2087📡PING-016.11-MS | 25.821MB
-  server: 190.93.246.241
-  port: 2087
-  type: trojan
-  password: f0c15464-3efa-4a05-a82a-68eb2d05488e
-  sni: uk3.trojanvpn.de
-  skip-cert-verify: false
-- name: 🇳🇱VM-WS-TLS🇳🇱NL-188.114.97.1:443📡PING-016.11-MS | 25.717MB
-  server: 188.114.97.1
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇳🇱VM-WS-TLS🇳🇱NL-188.114.97.1:443📡PING-016.11-MS | 25.717MB
-  network: ws
-  ws-opts:
-    path: linkvws
-    headers:
-      Host: odelia.autos
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:8443📡PING-011.82-MS | 25.631MB
-  server: 172.67.183.108
-  port: 8443
-  type: trojan
-  password: SMqYtoeC93
-  sni: x9.mehdimoghaddam.fun
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:2087📡PING-011.56-MS | 25.603MB
-  server: 172.67.188.127
-  port: 2087
-  type: trojan
-  password: hlt9v2Hqdf
-  sni: 7b20d3l49xojc05spo42kgtf0g4otiw5qfkdv52ww1lv7zq6hh97c3pq3ydr8oo.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  skip-cert-verify: false
-- name: 🇳🇱TR-WS-NA🇳🇱NL-45.131.4.16:443📡PING-011.39-MS | 25.589MB
-  server: 45.131.4.16
-  port: 443
-  type: trojan
-  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
-  sni: c1mc.cdncisco3.co
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-010.99-MS | 25.545MB
-  server: 172.67.184.229
-  port: 443
-  type: trojan
-  password: i8YdP0ivWoz5KEgN
-  sni: nl-3f728889.xeovo.org
-  skip-cert-verify: false
-- name: TR-WS-TLS🇧🇬BG-147.78.140.9:443📡PING-010.90-MS | 25.5MB
-  server: 147.78.140.9
-  port: 443
-  type: trojan
-  password: 09a7c68d-3a50-4fa8-b673-9f45214ec951
-  sni: irancell.ir0.ir
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.25.250.192:443📡PING-010.88-MS | 25.494MB
-  server: 104.25.250.192
-  port: 443
-  type: trojan
-  password: 9iiN39jgvc
-  sni: Rev.EfnTen.top
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.25.244.9:443📡PING-010.37-MS | 25.474MB
-  server: 104.25.244.9
-  port: 443
-  type: trojan
-  password: 9iiN39jgvc
-  sni: Rev.EfnTen.top
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.21.75.6:443📡PING-010.25-MS | 25.431MB
-  server: 104.21.75.6
-  port: 443
-  type: trojan
-  password: 9iiN39jgvc
-  sni: Rev.EfnTen.top
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.19.200.6:443📡PING-010.11-MS | 25.423MB
-  server: 104.19.200.6
-  port: 443
-  type: trojan
-  password: a3f6a1ba-2b87-4f08-b56d-4a1faf29e8a5
-  sni: cdn.biglog.sbs
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-010.05-MS | 25.376MB
-  server: 172.66.45.47
-  port: 8443
-  type: trojan
-  password: 1Telegram-id-DarkVPNpro
-  sni: plan6barber-jaanejaannory-th3retirement.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:2096📡PING-010.04-MS | 25.349MB
-  server: 172.67.183.108
-  port: 2096
-  type: trojan
-  password: GmOUswOWsd
-  sni: x5.mehdimoghaddam.fun
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-010.02-MS | 25.327MB
-  server: 172.67.184.229
-  port: 443
-  type: trojan
-  password: i8YdP0ivWoz5KEgN
-  sni: nl-3f728889.xeovo.org
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-010.00-MS | 25.324MB
-  server: 66.235.200.0
-  port: 443
-  type: trojan
-  password: 98e142bb-ba07-4e05-8f70-7a2508f36cf7
-  sni: xp0.pardazesh.tech
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.158.207:443📡PING-009.90-MS | 25.308MB
-  server: 172.67.158.207
-  port: 443
-  type: trojan
-  password: e024cd34-0437-4578-d6d7-6352e12c6f17
-  sni: hklite1.wusiba.xyz
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-NA🇺🇸US-45.159.216.230:443📡PING-009.67-MS | 25.267MB
-  server: 45.159.216.230
-  port: 443
-  type: trojan
-  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
-  sni: c3mc.ciscocdn1.live
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.20.157.167:443📡PING-009.59-MS | 25.262MB
-  server: 104.20.157.167
-  port: 443
-  type: trojan
-  password: 9iiN39jgvc
-  sni: Rev.EfnTen.top
-  skip-cert-verify: false
-- name: 🇳🇱TR-WS-NA🇳🇱NL-45.131.4.99:443📡PING-009.57-MS | 25.196MB
-  server: 45.131.4.99
-  port: 443
-  type: trojan
-  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
-  sni: c3mc.ciscocdn1.live
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.26.13.245:8443📡PING-009.47-MS | 25.163MB
-  server: 104.26.13.245
-  port: 8443
-  type: trojan
-  password: Telegram-id-DarkVPNpro
-  sni: andint-gl0balressponse-elligencet3am.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-009.41-MS | 25.14MB
-  server: 172.66.47.117
-  port: 8443
-  type: trojan
-  password: 1Telegram-id-DarkVPNpro
-  sni: plan6barber-jaanejaannory-th3retirement.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.159.13:443📡PING-009.31-MS | 25.072MB
-  server: 172.67.159.13
-  port: 443
-  type: trojan
-  password: 2a85cc50-5f55-11ee-b3ab-1239d0255272
-  sni: de1.test3.net
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-009.29-MS | 25.055MB
-  server: 172.66.45.47
-  port: 8443
-  type: trojan
-  password: 1Telegram-id-DarkVPNpro
-  sni: plan6barber-jaanejaannory-th3retirement.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-009.28-MS | 25.024MB
-  server: 172.66.47.117
-  port: 8443
-  type: trojan
-  password: 1Telegram-id-DarkVPNpro
-  sni: plan6barber-jaanejaannory-th3retirement.arshaproplus.cf
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-162.159.62.69:443📡PING-009.23-MS | 25.023MB
-  server: 162.159.62.69
-  port: 443
-  type: trojan
-  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
-  sni: ftp.pardazesh.tech
-  skip-cert-verify: false
-- name: VM-WS-TLS🏴‍☠️NA-104.31.16.58:2053📡PING-009.20-MS | 25.015MB
-  server: 104.31.16.58
-  port: 2053
-  type: vmess
-  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: VM-WS-TLS🏴‍☠️NA-104.31.16.58:2053📡PING-009.20-MS | 25.015MB
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: b5.iraniancp.click
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-009.20-MS | 25.015MB
-  server: 172.67.188.127
-  port: 443
-  type: trojan
-  password: hlt9v2Hqdf
-  sni: t-me-v2line-kgtf0g4otiw5qfkdv52ww1lv7zq6hh97c3pq3yrtfeswvrdwexp.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  skip-cert-verify: false
-- name: TR-WS-TLS🏴‍☠️NA-104.18.1.119:8443📡PING-009.19-MS | 24.999MB
-  server: 104.18.1.119
-  port: 8443
-  type: trojan
-  password: Telegram-id-DarkVPNpro
-  sni: andint-gl0balressponse-elligencet3am.arshaproplus.cf
-  skip-cert-verify: false
-- name: 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-009.18-MS | 24.973MB
+- name: 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-016.75-MS | 27.008MB
   server: 172.67.229.25
   port: 2086
   type: vmess
@@ -1927,426 +1415,901 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
     headers:
       Host: ca6.tehme100.fun
-- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.24:443📡PING-009.16-MS | 24.884MB
-  server: 172.67.188.24
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.229.60:443📡PING-016.75-MS | 26.955MB
+  server: 172.67.229.60
+  port: 443
+  type: trojan
+  password: 09a7c68d-3a50-4fa8-b673-9f45214ec951
+  sni: wifi.ir0.ir
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-016.39-MS | 26.951MB
+  server: 172.66.47.117
+  port: 8443
+  type: trojan
+  password: 1Telegram-id-DarkVPNpro
+  sni: plan6barber-jaanejaannory-th3retirement.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-016.27-MS | 26.885MB
+  server: 172.66.45.47
+  port: 8443
+  type: trojan
+  password: 1Telegram-id-DarkVPNpro
+  sni: plan6barber-jaanejaannory-th3retirement.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-NONE🇺🇸US-172.66.44.112:80📡PING-016.21-MS | 26.832MB
+  server: 172.66.44.112
+  port: 80
+  type: trojan
+  password: pEmvNrqJDw
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.25.254.185:443📡PING-016.13-MS | 26.795MB
+  server: 104.25.254.185
+  port: 443
+  type: trojan
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  sni: c3mc.ciscocdn1.live
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.25.254.64:443📡PING-016.13-MS | 26.725MB
+  server: 104.25.254.64
+  port: 443
+  type: trojan
+  password: a3f6a1ba-2b87-4f08-b56d-4a1faf29e8a5
+  sni: cdn.biglog.sbs
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.21.75.6:443📡PING-016.11-MS | 26.658MB
+  server: 104.21.75.6
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: TR-WS-NA🏴‍☠️NA-104.21.60.120:443📡PING-016.11-MS | 26.51MB
+  server: 104.21.60.120
+  port: 443
+  type: trojan
+  password: 0ad5e311-7189-4124-ac8f-f828b681f10e
+  sni: c5mc.cdncisco.org
+  skip-cert-verify: false
+- name: VM-WS-NA🏴‍☠️NA-104.16.30.34:8080📡PING-015.71-MS | 26.454MB
+  server: 104.16.30.34
+  port: 8080
+  type: vmess
+  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v?ed=2048
+    headers:
+      Host: us2.tashancloud.link
+- name: 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-015.67-MS | 26.393MB
+  server: 188.114.96.3
+  port: 443
+  type: trojan
+  password: LDfff2qARe
+  sni: t-me-v2line-kgtf0g4otiw5qfkdv52ww1lv7zq6hh97c3pq3yrtfeswvrdwexp.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:8443📡PING-015.31-MS | 26.353MB
+  server: 172.67.183.108
+  port: 8443
+  type: trojan
+  password: SMqYtoeC93
+  sni: x9.mehdimoghaddam.fun
+  skip-cert-verify: false
+- name: VM-WS-NA🏴‍☠️NA-162.159.253.28:80📡PING-015.20-MS | 26.32MB
+  server: 162.159.253.28
+  port: 80
+  type: vmess
+  uuid: 6e0f4bcb-8df7-48b5-ba9f-bd3d9f3f2eff
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jd.shabijichang.com
+- name: 🇳🇱TR-WS-NA🇳🇱NL-45.131.5.115:443📡PING-015.09-MS | 26.272MB
+  server: 45.131.5.115
+  port: 443
+  type: trojan
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  sni: c1mc.cdncisco3.co
+  skip-cert-verify: false
+- name: TR-WS-TLS🇱🇺LU-188.42.88.227:443📡PING-015.06-MS | 26.227MB
+  server: 188.42.88.227
+  port: 443
+  type: trojan
+  password: 09a7c68d-3a50-4fa8-b673-9f45214ec951
+  sni: hamrah.ir0.ir
+  skip-cert-verify: false
+- name: 🇨🇦TR-WS-TLS🇨🇦CA-64.68.192.1:443📡PING-014.94-MS | 26.189MB
+  server: 64.68.192.1
+  port: 443
+  type: trojan
+  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
+  sni: sftp.pardazesh.tech
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.20.167.137:443📡PING-014.85-MS | 26.123MB
+  server: 104.20.167.137
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: VM-WS-NA🏴‍☠️NA-104.16.28.34:8080📡PING-014.83-MS | 26.079MB
+  server: 104.16.28.34
+  port: 8080
+  type: vmess
+  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v?ed=2048
+    headers:
+      Host: us2.tashancloud.link
+- name: TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-014.78-MS | 26.07MB
+  server: 104.18.202.232
+  port: 443
+  type: trojan
+  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
+  sni: sftp.pardazesh.tech
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.26.3.217:443📡PING-014.66-MS | 26.065MB
+  server: 104.26.3.217
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-014.65-MS | 26.035MB
+  server: 172.67.188.127
+  port: 443
+  type: trojan
+  password: hlt9v2Hqdf
+  sni: t-me-v2line-kgtf0g4otiw5qfkdv52ww1lv7zq6hh97c3pq3yrtfeswvrdwexp.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.20.149.221:443📡PING-014.62-MS | 26.017MB
+  server: 104.20.149.221
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.21.7.241:443📡PING-014.61-MS | 26.0MB
+  server: 104.21.7.241
   port: 443
   type: trojan
   password: your_password
-  sni: aws-kr-seoul-1.f1cflineb.com
+  sni: aws-aus-sydney-1.f1cflineb.com
+  skip-cert-verify: false
+- name: VM-WS-NA🏴‍☠️NA-104.16.1.35:8080📡PING-014.61-MS | 25.997MB
+  server: 104.16.1.35
+  port: 8080
+  type: vmess
+  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v?ed=2048
+    headers:
+      Host: us2.tashancloud.link
+- name: 🇳🇱TR-WS-TLS🇳🇱NL-45.131.4.240:443📡PING-014.61-MS | 25.996MB
+  server: 45.131.4.240
+  port: 443
+  type: trojan
+  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
+  sni: sftp.pardazesh.tech
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-014.60-MS | 25.974MB
+  server: 104.18.202.232
+  port: 443
+  type: trojan
+  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
+  sni: sftp.pardazesh.tech
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.20.154.89:443📡PING-014.59-MS | 25.97MB
+  server: 104.20.154.89
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-014.58-MS | 25.93MB
+  server: 172.67.229.25
+  port: 2086
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+    headers:
+      Host: ca6.tehme100.fun
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.158.207:443📡PING-014.58-MS | 25.894MB
+  server: 172.67.158.207
+  port: 443
+  type: trojan
+  password: e024cd34-0437-4578-d6d7-6352e12c6f17
+  sni: hklite1.wusiba.xyz
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.26.10.33:443📡PING-014.53-MS | 25.883MB
+  server: 104.26.10.33
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.21.48.84:443📡PING-014.50-MS | 25.821MB
+  server: 104.21.48.84
+  port: 443
+  type: trojan
+  password: 749eec2c-7dd3-42cc-919a-6016635475f6
+  sni: 0px.pardazesh.tech
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.18.31.88:8443📡PING-014.49-MS | 25.717MB
+  server: 104.18.31.88
+  port: 8443
+  type: trojan
+  password: 1Telegram-id-DarkVPNpro
+  sni: plan6barber-jaanejaannory-th3retirement.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-014.46-MS | 25.631MB
+  server: 66.235.200.0
+  port: 443
+  type: trojan
+  password: 98e142bb-ba07-4e05-8f70-7a2508f36cf7
+  sni: xp0.pardazesh.tech
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.18.31.88:8443📡PING-014.46-MS | 25.603MB
+  server: 104.18.31.88
+  port: 8443
+  type: trojan
+  password: 1Telegram-id-DarkVPNpro
+  sni: plan6barber-jaanejaannory-th3retirement.arshaproplus.cf
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-014.45-MS | 25.589MB
+  server: 172.67.188.127
+  port: 443
+  type: trojan
+  password: hlt9v2Hqdf
+  sni: t-me-v2line-kgtf0g4otiw5qfkdv52ww1lv7zq6hh97c3pq3yrtfeswvrdwexp.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  skip-cert-verify: false
+- name: 🇺🇸VM-WS-NA🇺🇸US-172.67.69.247:8880📡PING-014.45-MS | 25.545MB
+  server: 172.67.69.247
+  port: 8880
+  type: vmess
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vcus1.vpn66.eu.org
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-014.45-MS | 25.5MB
+  server: 172.67.184.229
+  port: 443
+  type: trojan
+  password: i8YdP0ivWoz5KEgN
+  sni: nl-3f728889.xeovo.org
+  skip-cert-verify: false
+- name: 🇳🇱TR-WS-TLS🇳🇱NL-45.131.4.240:443📡PING-014.42-MS | 25.494MB
+  server: 45.131.4.240
+  port: 443
+  type: trojan
+  password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8
+  sni: sftp.pardazesh.tech
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-NA🇺🇸US-45.159.216.230:443📡PING-014.41-MS | 25.474MB
+  server: 45.159.216.230
+  port: 443
+  type: trojan
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  sni: c3mc.ciscocdn1.live
+  skip-cert-verify: false
+- name: 🇦🇺TR-WS-NA🇦🇺AU-103.169.142.18:443📡PING-014.39-MS | 25.431MB
+  server: 103.169.142.18
+  port: 443
+  type: trojan
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  sni: c3mc.ciscocdn1.live
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.17.42.10:443📡PING-014.34-MS | 25.423MB
+  server: 104.17.42.10
+  port: 443
+  type: trojan
+  password: 09a7c68d-3a50-4fa8-b673-9f45214ec951
+  sni: hamrah.ir0.ir
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.21.48.84:443📡PING-014.34-MS | 25.376MB
+  server: 104.21.48.84
+  port: 443
+  type: trojan
+  password: 749eec2c-7dd3-42cc-919a-6016635475f6
+  sni: 0px.pardazesh.tech
+  skip-cert-verify: false
+- name: VM-WS-NA🏴‍☠️NA-104.16.26.34:8080📡PING-014.34-MS | 25.349MB
+  server: 104.16.26.34
+  port: 8080
+  type: vmess
+  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v?ed=2048
+    headers:
+      Host: us2.tashancloud.link
+- name: 🇺🇸TR-WS-NA🇺🇸US-45.159.216.236:443📡PING-014.34-MS | 25.327MB
+  server: 45.159.216.236
+  port: 443
+  type: trojan
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  sni: c3mc.ciscocdn1.live
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-162.159.135.232:443📡PING-014.33-MS | 25.324MB
+  server: 162.159.135.232
+  port: 443
+  type: trojan
+  password: a3f6a1ba-2b87-4f08-b56d-4a1faf29e8a5
+  sni: cdn.biglog.sbs
+  skip-cert-verify: false
+- name: 🇺🇸VM-WS-TLS🇺🇸US-172.67.109.85:443📡PING-014.33-MS | 25.308MB
+  server: 172.67.109.85
+  port: 443
+  type: vmess
+  uuid: 6B21EBEE-17AD-4B04-B498-561D5B4CA0EB
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇺🇸VM-WS-TLS🇺🇸US-172.67.109.85:443📡PING-014.33-MS | 25.308MB
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: fn.mostafago.tk
+- name: TR-WS-TLS🏴‍☠️NA-104.25.254.41:443📡PING-014.32-MS | 25.267MB
+  server: 104.25.254.41
+  port: 443
+  type: trojan
+  password: a3f6a1ba-2b87-4f08-b56d-4a1faf29e8a5
+  sni: cdn.biglog.sbs
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.21.12.87:443📡PING-014.32-MS | 25.262MB
+  server: 104.21.12.87
+  port: 443
+  type: trojan
+  password: 0b65bb06-6b28-487a-8e3c-820dda51e977
+  sni: series-v1.samanehha.co
+  skip-cert-verify: false
+- name: 🇺🇸VM-WS-NA🇺🇸US-172.67.69.247:8880📡PING-014.32-MS | 25.196MB
+  server: 172.67.69.247
+  port: 8880
+  type: vmess
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vcus1.vpn66.eu.org
+- name: 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-014.32-MS | 25.163MB
+  server: 66.235.200.0
+  port: 443
+  type: trojan
+  password: 98e142bb-ba07-4e05-8f70-7a2508f36cf7
+  sni: xp0.pardazesh.tech
+  skip-cert-verify: false
+- name: 🇳🇱TR-WS-NA🇳🇱NL-45.131.6.38:443📡PING-014.31-MS | 25.14MB
+  server: 45.131.6.38
+  port: 443
+  type: trojan
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  sni: c1mc.cdncisco3.co
+  skip-cert-verify: false
+- name: VM-WS-NA🏴‍☠️NA-104.16.2.35:8080📡PING-014.30-MS | 25.072MB
+  server: 104.16.2.35
+  port: 8080
+  type: vmess
+  uuid: c9d807cf-8a97-4a29-bbec-ad06c9b17391
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v?ed=2048
+    headers:
+      Host: us2.tashancloud.link
+- name: 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-014.28-MS | 25.055MB
+  server: 172.67.184.229
+  port: 443
+  type: trojan
+  password: i8YdP0ivWoz5KEgN
+  sni: nl-3f728889.xeovo.org
+  skip-cert-verify: false
+- name: TR-WS-NONE🇹🇷TR-185.201.139.200:80📡PING-014.26-MS | 25.024MB
+  server: 185.201.139.200
+  port: 80
+  type: trojan
+  password: pEmvNrqJDw
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-NA🇺🇸US-172.67.150.82:443📡PING-014.25-MS | 25.023MB
+  server: 172.67.150.82
+  port: 443
+  type: trojan
+  password: e35026da-e985-49ca-b43b-276062a535a6
+  sni: notdirect.howhealthyistoomajreally.homes
+  skip-cert-verify: false
+- name: 🇺🇸TR-WS-NA🇺🇸US-45.159.216.240:443📡PING-014.25-MS | 25.015MB
+  server: 45.159.216.240
+  port: 443
+  type: trojan
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  sni: c3mc.ciscocdn1.live
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.20.179.192:443📡PING-014.23-MS | 25.015MB
+  server: 104.20.179.192
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.25.244.9:443📡PING-014.23-MS | 24.999MB
+  server: 104.25.244.9
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: TR-WS-TLS🏴‍☠️NA-104.20.168.47:443📡PING-014.22-MS | 24.973MB
+  server: 104.20.168.47
+  port: 443
+  type: trojan
+  password: 9iiN39jgvc
+  sni: Rev.EfnTen.top
+  skip-cert-verify: false
+- name: 🇦🇺TR-WS-NA🇦🇺AU-103.11.214.252:443📡PING-014.22-MS | 24.884MB
+  server: 103.11.214.252
+  port: 443
+  type: trojan
+  password: 4d706727-996f-4427-930d-60f3bd414cf9
+  sni: c2mk.ciscocdn1.live
   skip-cert-verify: false
 proxy-groups:
 - name: Core
   type: select
   proxies:
   - Ping
-  - 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-059.32-MS | 212.773MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-060.50-MS | 151.404MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.76-MS | 87.788MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-063.41-MS | 81.085MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-063.60-MS | 78.314MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-063.84-MS | 72.028MB
-  - 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-064.88-MS | 64.827MB
-  - 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-067.44-MS | 63.843MB
-  - 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-071.99-MS | 63.354MB
-  - 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-085.14-MS | 59.04MB
-  - 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-107.02-MS | 57.258MB
-  - 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-107.10-MS | 55.876MB
-  - 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-108.24-MS | 47.205MB
-  - 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-108.74-MS | 42.727MB
-  - 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-125.44-MS | 40.778MB
-  - 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-126.97-MS | 36.45MB
-  - 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-129.26-MS | 35.725MB
-  - 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-131.21-MS | 35.631MB
-  - 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-132.64-MS | 35.604MB
-  - 🇰🇷VM-WS-NA🇰🇷KR-146.56.99.95:21453📡PING-135.62-MS | 35.386MB
-  - 🇰🇷VM-WS-NA🇰🇷KR-146.56.99.95:21453📡PING-135.69-MS | 35.267MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-135.92-MS | 34.995MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-136.14-MS | 34.265MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-136.52-MS | 34.109MB
-  - 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-136.66-MS | 33.123MB
-  - 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-138.29-MS | 33.09MB
-  - 🇳🇱VM-WS-NA🇳🇱NL-185.162.235.250:2054📡PING-138.91-MS | 33.061MB
-  - 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-139.02-MS | 32.665MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-139.05-MS | 32.291MB
-  - 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-139.09-MS | 32.116MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-139.57-MS | 32.094MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-140.48-MS | 32.028MB
-  - TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-140.80-MS | 32.001MB
-  - TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-140.99-MS | 31.94MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-141.23-MS | 31.834MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-141.57-MS | 31.716MB
-  - 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-142.10-MS | 31.712MB
-  - 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-142.29-MS | 31.638MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-143.22-MS | 31.372MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-145.91-MS | 31.199MB
-  - 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-146.13-MS | 31.102MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-146.82-MS | 31.044MB
-  - TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-147.07-MS | 31.031MB
-  - 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-149.45-MS | 31.002MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-150.58-MS | 30.998MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-150.94-MS | 30.998MB
-  - 🇭🇰VM-WS-NA🇭🇰HK-20.187.110.169:12269📡PING-151.53-MS | 30.986MB
-  - TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-151.60-MS | 30.928MB
-  - 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-153.14-MS | 30.858MB
-  - TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-153.37-MS | 30.763MB
-  - TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-153.45-MS | 30.751MB
-  - 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-154.24-MS | 30.747MB
-  - 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-154.30-MS | 30.731MB
-  - TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-155.44-MS | 30.731MB
-  - VM-WS-NA🇧🇬BG-91.227.77.70:10100📡PING-158.47-MS | 30.678MB
-  - TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-158.89-MS | 30.666MB
-  - 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-159.87-MS | 30.625MB
-  - 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-159.99-MS | 30.597MB
-  - 🇦🇺VM-WS-NA🇦🇺AU-158.178.140.68:20653📡PING-160.04-MS | 30.589MB
-  - 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-160.06-MS | 30.589MB
-  - 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-160.15-MS | 30.566MB
-  - TR-WS-NONE🇸🇪SE-91.223.169.117:954📡PING-160.18-MS | 30.534MB
-  - 🇦🇺VM-WS-NA🇦🇺AU-158.178.140.68:20653📡PING-160.96-MS | 30.471MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-172.13-MS | 30.448MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-172.32-MS | 30.408MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-172.34-MS | 30.399MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-172.37-MS | 30.339MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-172.46-MS | 30.312MB
-  - 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-172.59-MS | 30.149MB
-  - 🇸🇬VM-WS-NA🇸🇬SG-146.235.16.95:23202📡PING-172.66-MS | 30.042MB
-  - 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-172.72-MS | 30.028MB
-  - 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-172.84-MS | 30.001MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-172.84-MS | 29.938MB
-  - 🇸🇬VM-WS-NA🇸🇬SG-146.235.16.95:23202📡PING-172.89-MS | 29.672MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-173.05-MS | 29.651MB
-  - 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-173.15-MS | 29.525MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-173.44-MS | 29.266MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-23.108.100.103:443📡PING-174.24-MS | 29.236MB
-  - VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-179.02-MS | 29.234MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-179.31-MS | 29.225MB
-  - VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-180.13-MS | 29.219MB
-  - TR-WS-TLS🇮🇷IR-185.143.234.3:443📡PING-182.35-MS | 29.214MB
-  - TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-182.40-MS | 29.196MB
-  - TR-WS-TLS🇮🇷IR-185.143.233.120:443📡PING-182.54-MS | 29.022MB
-  - VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-183.53-MS | 29.015MB
-  - TR-WS-TLS🇮🇷IR-185.143.234.120:443📡PING-184.28-MS | 29.007MB
-  - TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-184.45-MS | 28.904MB
-  - 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-187.80-MS | 28.869MB
-  - 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-187.90-MS | 28.802MB
-  - TR-WS-TLS🇦🇷AR-15.220.121.237:443📡PING-189.15-MS | 28.785MB
-  - VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-189.16-MS | 28.776MB
-  - VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-190.56-MS | 28.662MB
-  - TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-192.42-MS | 28.606MB
-  - TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-192.48-MS | 28.576MB
-  - TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-203.55-MS | 28.528MB
-  - TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-203.68-MS | 28.52MB
-  - VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-208.94-MS | 28.503MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-209.46-MS | 28.502MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-210.05-MS | 28.497MB
-  - VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-211.67-MS | 28.418MB
-  - 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-231.55-MS | 28.386MB
-  - 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-231.59-MS | 28.274MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-234.63-MS | 28.24MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:17275📡PING-235.09-MS | 28.203MB
-  - VM-WS-NA🇮🇷IR-31.14.114.52:22925📡PING-235.39-MS | 28.202MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-235.51-MS | 28.162MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-236.00-MS | 28.12MB
-  - VM-WS-NA🇮🇷IR-31.14.114.51:16557📡PING-236.15-MS | 28.11MB
-  - VM-WS-NA🇮🇷IR-31.14.114.55:39986📡PING-237.20-MS | 28.093MB
-  - VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-238.01-MS | 28.06MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-238.36-MS | 28.059MB
-  - VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-238.48-MS | 28.053MB
-  - TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-239.54-MS | 27.969MB
-  - TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-240.17-MS | 27.954MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:10497📡PING-242.15-MS | 27.947MB
-  - VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-243.53-MS | 27.945MB
-  - VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-243.77-MS | 27.897MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:37517📡PING-244.36-MS | 27.88MB
-  - 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-244.40-MS | 27.801MB
-  - 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-252.32-MS | 27.774MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:43017📡PING-253.81-MS | 27.76MB
-  - 🇸🇬VM-WS-NA🇸🇬SG-51.79.145.112:80📡PING-271.51-MS | 27.741MB
-  - TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-277.12-MS | 27.726MB
-  - TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-277.66-MS | 27.709MB
-  - VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-300.92-MS | 27.709MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-047.17-MS | 27.642MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-047.10-MS | 27.499MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-037.56-MS | 27.461MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-037.31-MS | 27.444MB
-  - 🇺🇸VM-WS-NA🇺🇸US-205.185.125.200:11451📡PING-029.70-MS | 27.426MB
-  - TR-WS-TLS🏴‍☠️NA-104.20.175.214:443📡PING-020.76-MS | 27.35MB
-  - TR-WS-TLS🏴‍☠️NA-104.25.254.105:443📡PING-020.67-MS | 27.346MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-018.39-MS | 27.277MB
-  - TR-WS-TLS🏴‍☠️NA-104.17.42.10:443📡PING-018.24-MS | 27.204MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-142.4.100.202:30000📡PING-018.10-MS | 27.175MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.32.142:443📡PING-017.54-MS | 27.166MB
-  - VM-WS-NA🏴‍☠️NA-104.16.68.38:2052📡PING-017.00-MS | 27.149MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.203.232:443📡PING-017.00-MS | 27.129MB
-  - 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-016.94-MS | 27.118MB
-  - 🇺🇸VM-WS-NA🇺🇸US-141.148.149.116:20353📡PING-016.90-MS | 27.104MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.203.232:443📡PING-016.90-MS | 27.052MB
-  - TR-WS-TLS🇨🇷CR-190.93.246.241:2087📡PING-016.89-MS | 27.008MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.68.38:443📡PING-016.79-MS | 26.955MB
-  - VM-WS-NA🏴‍☠️NA-104.16.29.34:8080📡PING-016.77-MS | 26.951MB
-  - 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-016.75-MS | 26.885MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-016.71-MS | 26.832MB
-  - VM-WS-NA🏴‍☠️NA-104.16.24.34:8080📡PING-016.67-MS | 26.795MB
-  - VM-WS-NA🏴‍☠️NA-104.17.62.27:2082📡PING-016.66-MS | 26.725MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.68.38:443📡PING-016.66-MS | 26.658MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.67.38:443📡PING-016.65-MS | 26.51MB
-  - VM-WS-NA🏴‍☠️NA-104.16.25.34:8080📡PING-016.63-MS | 26.454MB
-  - 🇺🇸VM-WS-NA🇺🇸US-206.168.240.113:35425📡PING-016.61-MS | 26.393MB
-  - VM-WS-NA🏴‍☠️NA-104.16.1.35:8080📡PING-016.58-MS | 26.353MB
-  - VM-WS-NA🏴‍☠️NA-104.16.27.34:8080📡PING-016.58-MS | 26.32MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.219.230:443📡PING-016.58-MS | 26.272MB
-  - TR-WS-NA🏴‍☠️NA-104.17.238.164:443📡PING-016.54-MS | 26.227MB
-  - VM-WS-NA🏴‍☠️NA-104.16.26.34:8080📡PING-016.54-MS | 26.189MB
-  - VM-WS-NA🏴‍☠️NA-104.17.62.27:2082📡PING-016.54-MS | 26.123MB
-  - 🇺🇸VM-WS-NA🇺🇸US-192.18.133.132:8085📡PING-016.53-MS | 26.079MB
-  - TR-WS-NA🏴‍☠️NA-104.17.141.179:443📡PING-016.50-MS | 26.07MB
-  - TR-WS-TLS🏴‍☠️NA-104.17.88.212:443📡PING-016.49-MS | 26.065MB
-  - VM-WS-NA🏴‍☠️NA-104.16.28.34:8080📡PING-016.49-MS | 26.035MB
-  - VM-WS-NA🏴‍☠️NA-104.18.203.232:80📡PING-016.46-MS | 26.017MB
-  - VM-WS-NA🏴‍☠️NA-104.16.0.35:8080📡PING-016.44-MS | 26.0MB
-  - VM-WS-NA🏴‍☠️NA-104.16.3.35:8080📡PING-016.41-MS | 25.997MB
-  - TR-WS-NA🏴‍☠️NA-104.18.103.113:443📡PING-016.38-MS | 25.996MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.67.38:443📡PING-016.38-MS | 25.974MB
-  - VM-WS-NA🏴‍☠️NA-104.16.31.34:8080📡PING-016.36-MS | 25.97MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.183.101:443📡PING-016.34-MS | 25.93MB
-  - VM-WS-NA🏴‍☠️NA-104.16.30.34:8080📡PING-016.28-MS | 25.894MB
-  - VM-WS-NA🏴‍☠️NA-104.16.2.35:8080📡PING-016.15-MS | 25.883MB
-  - TR-WS-TLS🇨🇷CR-190.93.246.241:2087📡PING-016.11-MS | 25.821MB
-  - 🇳🇱VM-WS-TLS🇳🇱NL-188.114.97.1:443📡PING-016.11-MS | 25.717MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:8443📡PING-011.82-MS | 25.631MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:2087📡PING-011.56-MS | 25.603MB
-  - 🇳🇱TR-WS-NA🇳🇱NL-45.131.4.16:443📡PING-011.39-MS | 25.589MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-010.99-MS | 25.545MB
-  - TR-WS-TLS🇧🇬BG-147.78.140.9:443📡PING-010.90-MS | 25.5MB
-  - TR-WS-TLS🏴‍☠️NA-104.25.250.192:443📡PING-010.88-MS | 25.494MB
-  - TR-WS-TLS🏴‍☠️NA-104.25.244.9:443📡PING-010.37-MS | 25.474MB
-  - TR-WS-TLS🏴‍☠️NA-104.21.75.6:443📡PING-010.25-MS | 25.431MB
-  - TR-WS-TLS🏴‍☠️NA-104.19.200.6:443📡PING-010.11-MS | 25.423MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-010.05-MS | 25.376MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:2096📡PING-010.04-MS | 25.349MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-010.02-MS | 25.327MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-010.00-MS | 25.324MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.158.207:443📡PING-009.90-MS | 25.308MB
-  - 🇺🇸TR-WS-NA🇺🇸US-45.159.216.230:443📡PING-009.67-MS | 25.267MB
-  - TR-WS-TLS🏴‍☠️NA-104.20.157.167:443📡PING-009.59-MS | 25.262MB
-  - 🇳🇱TR-WS-NA🇳🇱NL-45.131.4.99:443📡PING-009.57-MS | 25.196MB
-  - TR-WS-TLS🏴‍☠️NA-104.26.13.245:8443📡PING-009.47-MS | 25.163MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-009.41-MS | 25.14MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.159.13:443📡PING-009.31-MS | 25.072MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-009.29-MS | 25.055MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-009.28-MS | 25.024MB
-  - TR-WS-TLS🏴‍☠️NA-162.159.62.69:443📡PING-009.23-MS | 25.023MB
-  - VM-WS-TLS🏴‍☠️NA-104.31.16.58:2053📡PING-009.20-MS | 25.015MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-009.20-MS | 25.015MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.1.119:8443📡PING-009.19-MS | 24.999MB
-  - 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-009.18-MS | 24.973MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.24:443📡PING-009.16-MS | 24.884MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.22-MS | 212.773MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.53-MS | 151.404MB
+  - 🇺🇸VM-WS-NA🇺🇸US-206.168.240.113:35425📡PING-062.84-MS | 87.788MB
+  - 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-107.40-MS | 81.085MB
+  - 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-107.43-MS | 78.314MB
+  - 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-108.86-MS | 72.028MB
+  - 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-109.11-MS | 64.827MB
+  - 🇬🇧VM-WS-NA🇬🇧GB-198.244.232.207:8280📡PING-111.53-MS | 63.843MB
+  - 🇬🇧VM-WS-NA🇬🇧GB-198.244.232.207:8280📡PING-111.59-MS | 63.354MB
+  - 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-113.78-MS | 59.04MB
+  - 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-113.93-MS | 57.258MB
+  - 🇳🇱VM-WS-NA🇳🇱NL-185.162.235.250:2054📡PING-116.31-MS | 55.876MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-117.46-MS | 47.205MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-117.54-MS | 42.727MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-117.78-MS | 40.778MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-119.71-MS | 36.45MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-119.74-MS | 35.725MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-120.37-MS | 35.631MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-120.56-MS | 35.604MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-120.57-MS | 35.386MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-120.59-MS | 35.267MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-120.81-MS | 34.995MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-121.09-MS | 34.265MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-121.13-MS | 34.109MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-121.35-MS | 33.123MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-121.53-MS | 33.09MB
+  - 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-122.48-MS | 33.061MB
+  - 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-122.67-MS | 32.665MB
+  - 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-122.86-MS | 32.291MB
+  - TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-123.11-MS | 32.116MB
+  - 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-123.75-MS | 32.094MB
+  - TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-125.22-MS | 32.028MB
+  - 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-130.51-MS | 32.001MB
+  - 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-131.80-MS | 31.94MB
+  - TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-132.85-MS | 31.834MB
+  - TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-132.92-MS | 31.716MB
+  - 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-133.25-MS | 31.712MB
+  - TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-133.77-MS | 31.638MB
+  - TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-133.83-MS | 31.372MB
+  - 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-134.61-MS | 31.199MB
+  - 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-134.90-MS | 31.102MB
+  - VM-WS-NA🇧🇬BG-91.227.77.70:10100📡PING-135.50-MS | 31.044MB
+  - 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-137.26-MS | 31.031MB
+  - TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-140.92-MS | 31.002MB
+  - TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-141.22-MS | 30.998MB
+  - TR-WS-NONE🇸🇪SE-91.223.169.117:954📡PING-146.49-MS | 30.998MB
+  - 🇷🇺VM-WS-NA🇷🇺RU-194.87.70.83:2052📡PING-154.80-MS | 30.986MB
+  - TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-156.18-MS | 30.928MB
+  - TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-156.20-MS | 30.858MB
+  - TR-WS-TLS🇮🇷IR-185.143.234.120:443📡PING-156.30-MS | 30.763MB
+  - TR-WS-TLS🇮🇷IR-185.143.233.120:443📡PING-158.52-MS | 30.751MB
+  - TR-WS-TLS🇮🇷IR-185.143.234.3:443📡PING-161.90-MS | 30.747MB
+  - 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-164.90-MS | 30.731MB
+  - 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-164.96-MS | 30.731MB
+  - 🇭🇰VM-WS-NA🇭🇰HK-20.187.110.169:12269📡PING-175.60-MS | 30.678MB
+  - 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-179.79-MS | 30.666MB
+  - 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-183.68-MS | 30.625MB
+  - 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-184.70-MS | 30.597MB
+  - 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-185.15-MS | 30.589MB
+  - 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-186.15-MS | 30.589MB
+  - 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-186.24-MS | 30.566MB
+  - 🇭🇰VM-WS-NA🇭🇰HK-58.152.44.22:32806📡PING-190.56-MS | 30.534MB
+  - 🇭🇰VM-WS-NA🇭🇰HK-58.152.44.22:32806📡PING-191.71-MS | 30.471MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-196.70-MS | 30.448MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-196.70-MS | 30.408MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-196.88-MS | 30.399MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-197.09-MS | 30.339MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-197.40-MS | 30.312MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-197.41-MS | 30.149MB
+  - 🇸🇬VM-WS-NONE🇸🇬SG-146.190.110.92:22118📡PING-197.46-MS | 30.042MB
+  - 🇸🇬VM-WS-NONE🇸🇬SG-146.190.110.92:22118📡PING-197.52-MS | 30.028MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-198.52-MS | 30.001MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-198.52-MS | 29.938MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-198.77-MS | 29.672MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-199.45-MS | 29.651MB
+  - 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-201.40-MS | 29.525MB
+  - 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-202.03-MS | 29.266MB
+  - 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-202.16-MS | 29.236MB
+  - 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-207.63-MS | 29.234MB
+  - VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-209.30-MS | 29.225MB
+  - VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-209.45-MS | 29.219MB
+  - VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-210.21-MS | 29.214MB
+  - VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-210.55-MS | 29.196MB
+  - TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-214.54-MS | 29.022MB
+  - TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-215.98-MS | 29.015MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:10497📡PING-216.29-MS | 29.007MB
+  - VM-WS-NA🇮🇷IR-31.14.114.55:39986📡PING-216.48-MS | 28.904MB
+  - VM-WS-NA🇮🇷IR-31.14.114.51:16557📡PING-216.95-MS | 28.869MB
+  - 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-217.12-MS | 28.802MB
+  - 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-217.86-MS | 28.785MB
+  - VM-WS-NA🇮🇷IR-31.14.114.52:22925📡PING-218.04-MS | 28.776MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:43017📡PING-218.35-MS | 28.662MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-218.81-MS | 28.606MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:17275📡PING-219.12-MS | 28.576MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-219.25-MS | 28.528MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-219.68-MS | 28.52MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-220.11-MS | 28.503MB
+  - VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-220.22-MS | 28.502MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:37517📡PING-221.75-MS | 28.497MB
+  - VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-221.82-MS | 28.418MB
+  - TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-225.28-MS | 28.386MB
+  - TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-226.96-MS | 28.274MB
+  - VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-227.20-MS | 28.24MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-227.71-MS | 28.203MB
+  - TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-227.86-MS | 28.202MB
+  - VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-227.90-MS | 28.162MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-228.89-MS | 28.12MB
+  - 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-228.98-MS | 28.11MB
+  - 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-229.11-MS | 28.093MB
+  - TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-229.52-MS | 28.06MB
+  - VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-234.70-MS | 28.059MB
+  - VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-234.79-MS | 28.053MB
+  - 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-238.14-MS | 27.969MB
+  - 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-238.40-MS | 27.954MB
+  - TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-258.26-MS | 27.947MB
+  - TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-258.27-MS | 27.945MB
+  - VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-310.85-MS | 27.897MB
+  - VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-318.45-MS | 27.88MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-047.45-MS | 27.801MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-047.35-MS | 27.774MB
+  - 🇺🇸VM-WS-NA🇺🇸US-192.18.133.132:8085📡PING-045.65-MS | 27.76MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-045.51-MS | 27.741MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-045.40-MS | 27.726MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-044.57-MS | 27.709MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-044.42-MS | 27.709MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-142.4.100.202:30000📡PING-044.20-MS | 27.642MB
+  - 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-042.51-MS | 27.499MB
+  - 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-042.32-MS | 27.461MB
+  - 🇺🇸VM-WS-NA🇺🇸US-205.185.125.200:11451📡PING-041.19-MS | 27.444MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-040.40-MS | 27.426MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-039.95-MS | 27.35MB
+  - VM-WS-TLS🏴‍☠️NA-162.159.44.26:443📡PING-037.78-MS | 27.346MB
+  - 🇺🇸VM-WS-NA🇺🇸US-66.42.100.214:60222📡PING-037.36-MS | 27.277MB
+  - 🇺🇸VM-WS-NA🇺🇸US-66.42.100.214:60222📡PING-037.33-MS | 27.204MB
+  - 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-033.65-MS | 27.175MB
+  - 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-033.60-MS | 27.166MB
+  - TR-WS-TLS🏴‍☠️NA-162.159.137.232:443📡PING-018.96-MS | 27.149MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.57.252:80📡PING-017.59-MS | 27.129MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.19.24:443📡PING-017.24-MS | 27.118MB
+  - VM-WS-NA🏴‍☠️NA-104.17.159.62:80📡PING-016.87-MS | 27.104MB
+  - VM-WS-NA🏴‍☠️NA-104.16.3.35:8080📡PING-016.79-MS | 27.052MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-016.75-MS | 27.008MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.229.60:443📡PING-016.75-MS | 26.955MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-016.39-MS | 26.951MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-016.27-MS | 26.885MB
+  - 🇺🇸TR-WS-NONE🇺🇸US-172.66.44.112:80📡PING-016.21-MS | 26.832MB
+  - TR-WS-TLS🏴‍☠️NA-104.25.254.185:443📡PING-016.13-MS | 26.795MB
+  - TR-WS-TLS🏴‍☠️NA-104.25.254.64:443📡PING-016.13-MS | 26.725MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.75.6:443📡PING-016.11-MS | 26.658MB
+  - TR-WS-NA🏴‍☠️NA-104.21.60.120:443📡PING-016.11-MS | 26.51MB
+  - VM-WS-NA🏴‍☠️NA-104.16.30.34:8080📡PING-015.71-MS | 26.454MB
+  - 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-015.67-MS | 26.393MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:8443📡PING-015.31-MS | 26.353MB
+  - VM-WS-NA🏴‍☠️NA-162.159.253.28:80📡PING-015.20-MS | 26.32MB
+  - 🇳🇱TR-WS-NA🇳🇱NL-45.131.5.115:443📡PING-015.09-MS | 26.272MB
+  - TR-WS-TLS🇱🇺LU-188.42.88.227:443📡PING-015.06-MS | 26.227MB
+  - 🇨🇦TR-WS-TLS🇨🇦CA-64.68.192.1:443📡PING-014.94-MS | 26.189MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.167.137:443📡PING-014.85-MS | 26.123MB
+  - VM-WS-NA🏴‍☠️NA-104.16.28.34:8080📡PING-014.83-MS | 26.079MB
+  - TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-014.78-MS | 26.07MB
+  - TR-WS-TLS🏴‍☠️NA-104.26.3.217:443📡PING-014.66-MS | 26.065MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-014.65-MS | 26.035MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.149.221:443📡PING-014.62-MS | 26.017MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.7.241:443📡PING-014.61-MS | 26.0MB
+  - VM-WS-NA🏴‍☠️NA-104.16.1.35:8080📡PING-014.61-MS | 25.997MB
+  - 🇳🇱TR-WS-TLS🇳🇱NL-45.131.4.240:443📡PING-014.61-MS | 25.996MB
+  - TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-014.60-MS | 25.974MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.154.89:443📡PING-014.59-MS | 25.97MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-014.58-MS | 25.93MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.158.207:443📡PING-014.58-MS | 25.894MB
+  - TR-WS-TLS🏴‍☠️NA-104.26.10.33:443📡PING-014.53-MS | 25.883MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.48.84:443📡PING-014.50-MS | 25.821MB
+  - TR-WS-TLS🏴‍☠️NA-104.18.31.88:8443📡PING-014.49-MS | 25.717MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-014.46-MS | 25.631MB
+  - TR-WS-TLS🏴‍☠️NA-104.18.31.88:8443📡PING-014.46-MS | 25.603MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-014.45-MS | 25.589MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.69.247:8880📡PING-014.45-MS | 25.545MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-014.45-MS | 25.5MB
+  - 🇳🇱TR-WS-TLS🇳🇱NL-45.131.4.240:443📡PING-014.42-MS | 25.494MB
+  - 🇺🇸TR-WS-NA🇺🇸US-45.159.216.230:443📡PING-014.41-MS | 25.474MB
+  - 🇦🇺TR-WS-NA🇦🇺AU-103.169.142.18:443📡PING-014.39-MS | 25.431MB
+  - TR-WS-TLS🏴‍☠️NA-104.17.42.10:443📡PING-014.34-MS | 25.423MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.48.84:443📡PING-014.34-MS | 25.376MB
+  - VM-WS-NA🏴‍☠️NA-104.16.26.34:8080📡PING-014.34-MS | 25.349MB
+  - 🇺🇸TR-WS-NA🇺🇸US-45.159.216.236:443📡PING-014.34-MS | 25.327MB
+  - TR-WS-TLS🏴‍☠️NA-162.159.135.232:443📡PING-014.33-MS | 25.324MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-172.67.109.85:443📡PING-014.33-MS | 25.308MB
+  - TR-WS-TLS🏴‍☠️NA-104.25.254.41:443📡PING-014.32-MS | 25.267MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.12.87:443📡PING-014.32-MS | 25.262MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.69.247:8880📡PING-014.32-MS | 25.196MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-014.32-MS | 25.163MB
+  - 🇳🇱TR-WS-NA🇳🇱NL-45.131.6.38:443📡PING-014.31-MS | 25.14MB
+  - VM-WS-NA🏴‍☠️NA-104.16.2.35:8080📡PING-014.30-MS | 25.072MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-014.28-MS | 25.055MB
+  - TR-WS-NONE🇹🇷TR-185.201.139.200:80📡PING-014.26-MS | 25.024MB
+  - 🇺🇸TR-WS-NA🇺🇸US-172.67.150.82:443📡PING-014.25-MS | 25.023MB
+  - 🇺🇸TR-WS-NA🇺🇸US-45.159.216.240:443📡PING-014.25-MS | 25.015MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.179.192:443📡PING-014.23-MS | 25.015MB
+  - TR-WS-TLS🏴‍☠️NA-104.25.244.9:443📡PING-014.23-MS | 24.999MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.168.47:443📡PING-014.22-MS | 24.973MB
+  - 🇦🇺TR-WS-NA🇦🇺AU-103.11.214.252:443📡PING-014.22-MS | 24.884MB
 - name: Ping
   type: url-test
   url: https://api.telegram.org
   tolerance: 100
   interval: 3600
   proxies:
-  - 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-059.32-MS | 212.773MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-060.50-MS | 151.404MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.76-MS | 87.788MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-063.41-MS | 81.085MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-063.60-MS | 78.314MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-063.84-MS | 72.028MB
-  - 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-064.88-MS | 64.827MB
-  - 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-067.44-MS | 63.843MB
-  - 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-071.99-MS | 63.354MB
-  - 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-085.14-MS | 59.04MB
-  - 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-107.02-MS | 57.258MB
-  - 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-107.10-MS | 55.876MB
-  - 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-108.24-MS | 47.205MB
-  - 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-108.74-MS | 42.727MB
-  - 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-125.44-MS | 40.778MB
-  - 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-126.97-MS | 36.45MB
-  - 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-129.26-MS | 35.725MB
-  - 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-131.21-MS | 35.631MB
-  - 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-132.64-MS | 35.604MB
-  - 🇰🇷VM-WS-NA🇰🇷KR-146.56.99.95:21453📡PING-135.62-MS | 35.386MB
-  - 🇰🇷VM-WS-NA🇰🇷KR-146.56.99.95:21453📡PING-135.69-MS | 35.267MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-135.92-MS | 34.995MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-136.14-MS | 34.265MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-136.52-MS | 34.109MB
-  - 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-136.66-MS | 33.123MB
-  - 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-138.29-MS | 33.09MB
-  - 🇳🇱VM-WS-NA🇳🇱NL-185.162.235.250:2054📡PING-138.91-MS | 33.061MB
-  - 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-139.02-MS | 32.665MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-139.05-MS | 32.291MB
-  - 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-139.09-MS | 32.116MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-139.57-MS | 32.094MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-140.48-MS | 32.028MB
-  - TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-140.80-MS | 32.001MB
-  - TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-140.99-MS | 31.94MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-141.23-MS | 31.834MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-141.57-MS | 31.716MB
-  - 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-142.10-MS | 31.712MB
-  - 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-142.29-MS | 31.638MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-143.22-MS | 31.372MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-145.91-MS | 31.199MB
-  - 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-146.13-MS | 31.102MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-146.82-MS | 31.044MB
-  - TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-147.07-MS | 31.031MB
-  - 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-149.45-MS | 31.002MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-150.58-MS | 30.998MB
-  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-150.94-MS | 30.998MB
-  - 🇭🇰VM-WS-NA🇭🇰HK-20.187.110.169:12269📡PING-151.53-MS | 30.986MB
-  - TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-151.60-MS | 30.928MB
-  - 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-153.14-MS | 30.858MB
-  - TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-153.37-MS | 30.763MB
-  - TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-153.45-MS | 30.751MB
-  - 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-154.24-MS | 30.747MB
-  - 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-154.30-MS | 30.731MB
-  - TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-155.44-MS | 30.731MB
-  - VM-WS-NA🇧🇬BG-91.227.77.70:10100📡PING-158.47-MS | 30.678MB
-  - TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-158.89-MS | 30.666MB
-  - 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-159.87-MS | 30.625MB
-  - 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-159.99-MS | 30.597MB
-  - 🇦🇺VM-WS-NA🇦🇺AU-158.178.140.68:20653📡PING-160.04-MS | 30.589MB
-  - 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-160.06-MS | 30.589MB
-  - 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-160.15-MS | 30.566MB
-  - TR-WS-NONE🇸🇪SE-91.223.169.117:954📡PING-160.18-MS | 30.534MB
-  - 🇦🇺VM-WS-NA🇦🇺AU-158.178.140.68:20653📡PING-160.96-MS | 30.471MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-172.13-MS | 30.448MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-172.32-MS | 30.408MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-172.34-MS | 30.399MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-172.37-MS | 30.339MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-172.46-MS | 30.312MB
-  - 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-172.59-MS | 30.149MB
-  - 🇸🇬VM-WS-NA🇸🇬SG-146.235.16.95:23202📡PING-172.66-MS | 30.042MB
-  - 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-172.72-MS | 30.028MB
-  - 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-172.84-MS | 30.001MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-172.84-MS | 29.938MB
-  - 🇸🇬VM-WS-NA🇸🇬SG-146.235.16.95:23202📡PING-172.89-MS | 29.672MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-173.05-MS | 29.651MB
-  - 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-173.15-MS | 29.525MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-173.44-MS | 29.266MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-23.108.100.103:443📡PING-174.24-MS | 29.236MB
-  - VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-179.02-MS | 29.234MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-179.31-MS | 29.225MB
-  - VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-180.13-MS | 29.219MB
-  - TR-WS-TLS🇮🇷IR-185.143.234.3:443📡PING-182.35-MS | 29.214MB
-  - TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-182.40-MS | 29.196MB
-  - TR-WS-TLS🇮🇷IR-185.143.233.120:443📡PING-182.54-MS | 29.022MB
-  - VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-183.53-MS | 29.015MB
-  - TR-WS-TLS🇮🇷IR-185.143.234.120:443📡PING-184.28-MS | 29.007MB
-  - TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-184.45-MS | 28.904MB
-  - 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-187.80-MS | 28.869MB
-  - 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-187.90-MS | 28.802MB
-  - TR-WS-TLS🇦🇷AR-15.220.121.237:443📡PING-189.15-MS | 28.785MB
-  - VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-189.16-MS | 28.776MB
-  - VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-190.56-MS | 28.662MB
-  - TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-192.42-MS | 28.606MB
-  - TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-192.48-MS | 28.576MB
-  - TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-203.55-MS | 28.528MB
-  - TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-203.68-MS | 28.52MB
-  - VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-208.94-MS | 28.503MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-209.46-MS | 28.502MB
-  - 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-210.05-MS | 28.497MB
-  - VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-211.67-MS | 28.418MB
-  - 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-231.55-MS | 28.386MB
-  - 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-231.59-MS | 28.274MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-234.63-MS | 28.24MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:17275📡PING-235.09-MS | 28.203MB
-  - VM-WS-NA🇮🇷IR-31.14.114.52:22925📡PING-235.39-MS | 28.202MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-235.51-MS | 28.162MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-236.00-MS | 28.12MB
-  - VM-WS-NA🇮🇷IR-31.14.114.51:16557📡PING-236.15-MS | 28.11MB
-  - VM-WS-NA🇮🇷IR-31.14.114.55:39986📡PING-237.20-MS | 28.093MB
-  - VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-238.01-MS | 28.06MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-238.36-MS | 28.059MB
-  - VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-238.48-MS | 28.053MB
-  - TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-239.54-MS | 27.969MB
-  - TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-240.17-MS | 27.954MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:10497📡PING-242.15-MS | 27.947MB
-  - VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-243.53-MS | 27.945MB
-  - VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-243.77-MS | 27.897MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:37517📡PING-244.36-MS | 27.88MB
-  - 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-244.40-MS | 27.801MB
-  - 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-252.32-MS | 27.774MB
-  - VM-WS-NA🇮🇷IR-31.14.114.53:43017📡PING-253.81-MS | 27.76MB
-  - 🇸🇬VM-WS-NA🇸🇬SG-51.79.145.112:80📡PING-271.51-MS | 27.741MB
-  - TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-277.12-MS | 27.726MB
-  - TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-277.66-MS | 27.709MB
-  - VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-300.92-MS | 27.709MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-047.17-MS | 27.642MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-047.10-MS | 27.499MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-037.56-MS | 27.461MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-037.31-MS | 27.444MB
-  - 🇺🇸VM-WS-NA🇺🇸US-205.185.125.200:11451📡PING-029.70-MS | 27.426MB
-  - TR-WS-TLS🏴‍☠️NA-104.20.175.214:443📡PING-020.76-MS | 27.35MB
-  - TR-WS-TLS🏴‍☠️NA-104.25.254.105:443📡PING-020.67-MS | 27.346MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-018.39-MS | 27.277MB
-  - TR-WS-TLS🏴‍☠️NA-104.17.42.10:443📡PING-018.24-MS | 27.204MB
-  - 🇺🇸VM-WS-TLS🇺🇸US-142.4.100.202:30000📡PING-018.10-MS | 27.175MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.32.142:443📡PING-017.54-MS | 27.166MB
-  - VM-WS-NA🏴‍☠️NA-104.16.68.38:2052📡PING-017.00-MS | 27.149MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.203.232:443📡PING-017.00-MS | 27.129MB
-  - 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-016.94-MS | 27.118MB
-  - 🇺🇸VM-WS-NA🇺🇸US-141.148.149.116:20353📡PING-016.90-MS | 27.104MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.203.232:443📡PING-016.90-MS | 27.052MB
-  - TR-WS-TLS🇨🇷CR-190.93.246.241:2087📡PING-016.89-MS | 27.008MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.68.38:443📡PING-016.79-MS | 26.955MB
-  - VM-WS-NA🏴‍☠️NA-104.16.29.34:8080📡PING-016.77-MS | 26.951MB
-  - 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-016.75-MS | 26.885MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-016.71-MS | 26.832MB
-  - VM-WS-NA🏴‍☠️NA-104.16.24.34:8080📡PING-016.67-MS | 26.795MB
-  - VM-WS-NA🏴‍☠️NA-104.17.62.27:2082📡PING-016.66-MS | 26.725MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.68.38:443📡PING-016.66-MS | 26.658MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.67.38:443📡PING-016.65-MS | 26.51MB
-  - VM-WS-NA🏴‍☠️NA-104.16.25.34:8080📡PING-016.63-MS | 26.454MB
-  - 🇺🇸VM-WS-NA🇺🇸US-206.168.240.113:35425📡PING-016.61-MS | 26.393MB
-  - VM-WS-NA🏴‍☠️NA-104.16.1.35:8080📡PING-016.58-MS | 26.353MB
-  - VM-WS-NA🏴‍☠️NA-104.16.27.34:8080📡PING-016.58-MS | 26.32MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.219.230:443📡PING-016.58-MS | 26.272MB
-  - TR-WS-NA🏴‍☠️NA-104.17.238.164:443📡PING-016.54-MS | 26.227MB
-  - VM-WS-NA🏴‍☠️NA-104.16.26.34:8080📡PING-016.54-MS | 26.189MB
-  - VM-WS-NA🏴‍☠️NA-104.17.62.27:2082📡PING-016.54-MS | 26.123MB
-  - 🇺🇸VM-WS-NA🇺🇸US-192.18.133.132:8085📡PING-016.53-MS | 26.079MB
-  - TR-WS-NA🏴‍☠️NA-104.17.141.179:443📡PING-016.50-MS | 26.07MB
-  - TR-WS-TLS🏴‍☠️NA-104.17.88.212:443📡PING-016.49-MS | 26.065MB
-  - VM-WS-NA🏴‍☠️NA-104.16.28.34:8080📡PING-016.49-MS | 26.035MB
-  - VM-WS-NA🏴‍☠️NA-104.18.203.232:80📡PING-016.46-MS | 26.017MB
-  - VM-WS-NA🏴‍☠️NA-104.16.0.35:8080📡PING-016.44-MS | 26.0MB
-  - VM-WS-NA🏴‍☠️NA-104.16.3.35:8080📡PING-016.41-MS | 25.997MB
-  - TR-WS-NA🏴‍☠️NA-104.18.103.113:443📡PING-016.38-MS | 25.996MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.67.38:443📡PING-016.38-MS | 25.974MB
-  - VM-WS-NA🏴‍☠️NA-104.16.31.34:8080📡PING-016.36-MS | 25.97MB
-  - TR-WS-TLS🏴‍☠️NA-104.16.183.101:443📡PING-016.34-MS | 25.93MB
-  - VM-WS-NA🏴‍☠️NA-104.16.30.34:8080📡PING-016.28-MS | 25.894MB
-  - VM-WS-NA🏴‍☠️NA-104.16.2.35:8080📡PING-016.15-MS | 25.883MB
-  - TR-WS-TLS🇨🇷CR-190.93.246.241:2087📡PING-016.11-MS | 25.821MB
-  - 🇳🇱VM-WS-TLS🇳🇱NL-188.114.97.1:443📡PING-016.11-MS | 25.717MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:8443📡PING-011.82-MS | 25.631MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:2087📡PING-011.56-MS | 25.603MB
-  - 🇳🇱TR-WS-NA🇳🇱NL-45.131.4.16:443📡PING-011.39-MS | 25.589MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-010.99-MS | 25.545MB
-  - TR-WS-TLS🇧🇬BG-147.78.140.9:443📡PING-010.90-MS | 25.5MB
-  - TR-WS-TLS🏴‍☠️NA-104.25.250.192:443📡PING-010.88-MS | 25.494MB
-  - TR-WS-TLS🏴‍☠️NA-104.25.244.9:443📡PING-010.37-MS | 25.474MB
-  - TR-WS-TLS🏴‍☠️NA-104.21.75.6:443📡PING-010.25-MS | 25.431MB
-  - TR-WS-TLS🏴‍☠️NA-104.19.200.6:443📡PING-010.11-MS | 25.423MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-010.05-MS | 25.376MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:2096📡PING-010.04-MS | 25.349MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-010.02-MS | 25.327MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-010.00-MS | 25.324MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.158.207:443📡PING-009.90-MS | 25.308MB
-  - 🇺🇸TR-WS-NA🇺🇸US-45.159.216.230:443📡PING-009.67-MS | 25.267MB
-  - TR-WS-TLS🏴‍☠️NA-104.20.157.167:443📡PING-009.59-MS | 25.262MB
-  - 🇳🇱TR-WS-NA🇳🇱NL-45.131.4.99:443📡PING-009.57-MS | 25.196MB
-  - TR-WS-TLS🏴‍☠️NA-104.26.13.245:8443📡PING-009.47-MS | 25.163MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-009.41-MS | 25.14MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.159.13:443📡PING-009.31-MS | 25.072MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-009.29-MS | 25.055MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-009.28-MS | 25.024MB
-  - TR-WS-TLS🏴‍☠️NA-162.159.62.69:443📡PING-009.23-MS | 25.023MB
-  - VM-WS-TLS🏴‍☠️NA-104.31.16.58:2053📡PING-009.20-MS | 25.015MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-009.20-MS | 25.015MB
-  - TR-WS-TLS🏴‍☠️NA-104.18.1.119:8443📡PING-009.19-MS | 24.999MB
-  - 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-009.18-MS | 24.973MB
-  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.24:443📡PING-009.16-MS | 24.884MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.22-MS | 212.773MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-15.220.185.180:443📡PING-061.53-MS | 151.404MB
+  - 🇺🇸VM-WS-NA🇺🇸US-206.168.240.113:35425📡PING-062.84-MS | 87.788MB
+  - 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-107.40-MS | 81.085MB
+  - 🇬🇧VM-WS-NA🇬🇧GB-138.68.136.50:65500📡PING-107.43-MS | 78.314MB
+  - 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-108.86-MS | 72.028MB
+  - 🇬🇧TR-WS-TLS🇬🇧GB-52.56.183.187:443📡PING-109.11-MS | 64.827MB
+  - 🇬🇧VM-WS-NA🇬🇧GB-198.244.232.207:8280📡PING-111.53-MS | 63.843MB
+  - 🇬🇧VM-WS-NA🇬🇧GB-198.244.232.207:8280📡PING-111.59-MS | 63.354MB
+  - 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-113.78-MS | 59.04MB
+  - 🇫🇷TR-WS-TLS🇫🇷FR-15.236.64.14:443📡PING-113.93-MS | 57.258MB
+  - 🇳🇱VM-WS-NA🇳🇱NL-185.162.235.250:2054📡PING-116.31-MS | 55.876MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-117.46-MS | 47.205MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-117.54-MS | 42.727MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.2.127:2087📡PING-117.78-MS | 40.778MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-119.71-MS | 36.45MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-47.91.65.83:2087📡PING-119.74-MS | 35.725MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-54.93.172.88:443📡PING-120.37-MS | 35.631MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-120.56-MS | 35.604MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-120.57-MS | 35.386MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.106.117:2087📡PING-120.59-MS | 35.267MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-120.81-MS | 34.995MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.209.111.119:2087📡PING-121.09-MS | 34.265MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-8.211.1.177:2087📡PING-121.13-MS | 34.109MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-121.35-MS | 33.123MB
+  - 🇩🇪TR-WS-TLS🇩🇪DE-47.254.140.109:2087📡PING-121.53-MS | 33.09MB
+  - 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-122.48-MS | 33.061MB
+  - 🇩🇪VM-WS-NA🇩🇪DE-91.107.173.213:21212📡PING-122.67-MS | 32.665MB
+  - 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-122.86-MS | 32.291MB
+  - TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-123.11-MS | 32.116MB
+  - 🇩🇪VM-WS-NONE🇩🇪DE-78.46.201.146:23496📡PING-123.75-MS | 32.094MB
+  - TR-WS-TLS🇨🇭CH-16.62.65.57:443📡PING-125.22-MS | 32.028MB
+  - 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-130.51-MS | 32.001MB
+  - 🇪🇸TR-WS-TLS🇪🇸ES-18.100.115.245:443📡PING-131.80-MS | 31.94MB
+  - TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-132.85-MS | 31.834MB
+  - TR-WS-TLS🇳🇴NO-185.125.171.218:443📡PING-132.92-MS | 31.716MB
+  - 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-133.25-MS | 31.712MB
+  - TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-133.77-MS | 31.638MB
+  - TR-WS-TLS🇮🇹IT-15.160.138.221:443📡PING-133.83-MS | 31.372MB
+  - 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-134.61-MS | 31.199MB
+  - 🇯🇵TR-WS-TLS🇯🇵JP-43.206.127.212:443📡PING-134.90-MS | 31.102MB
+  - VM-WS-NA🇧🇬BG-91.227.77.70:10100📡PING-135.50-MS | 31.044MB
+  - 🇯🇵VM-WS-TLS🇯🇵JP-103.168.155.19:888📡PING-137.26-MS | 31.031MB
+  - TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-140.92-MS | 31.002MB
+  - TR-WS-TLS🇸🇪SE-16.171.12.136:443📡PING-141.22-MS | 30.998MB
+  - TR-WS-NONE🇸🇪SE-91.223.169.117:954📡PING-146.49-MS | 30.998MB
+  - 🇷🇺VM-WS-NA🇷🇺RU-194.87.70.83:2052📡PING-154.80-MS | 30.986MB
+  - TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-156.18-MS | 30.928MB
+  - TR-WS-NONE🇮🇷IR-185.143.233.120:80📡PING-156.20-MS | 30.858MB
+  - TR-WS-TLS🇮🇷IR-185.143.234.120:443📡PING-156.30-MS | 30.763MB
+  - TR-WS-TLS🇮🇷IR-185.143.233.120:443📡PING-158.52-MS | 30.751MB
+  - TR-WS-TLS🇮🇷IR-185.143.234.3:443📡PING-161.90-MS | 30.747MB
+  - 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-164.90-MS | 30.731MB
+  - 🇨🇳TR-WS-NA🇹🇼TW-60.248.114.188:3306📡PING-164.96-MS | 30.731MB
+  - 🇭🇰VM-WS-NA🇭🇰HK-20.187.110.169:12269📡PING-175.60-MS | 30.678MB
+  - 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-179.79-MS | 30.666MB
+  - 🇦🇺TR-WS-TLS🇦🇺AU-3.27.95.146:443📡PING-183.68-MS | 30.625MB
+  - 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-184.70-MS | 30.597MB
+  - 🇭🇰TR-WS-TLS🇭🇰HK-16.163.157.177:443📡PING-185.15-MS | 30.589MB
+  - 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-186.15-MS | 30.589MB
+  - 🇺🇸VM-WS-NA🇺🇸US-156.251.226.106:1111📡PING-186.24-MS | 30.566MB
+  - 🇭🇰VM-WS-NA🇭🇰HK-58.152.44.22:32806📡PING-190.56-MS | 30.534MB
+  - 🇭🇰VM-WS-NA🇭🇰HK-58.152.44.22:32806📡PING-191.71-MS | 30.471MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-196.70-MS | 30.448MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-196.70-MS | 30.408MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-196.88-MS | 30.399MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.50:3306📡PING-197.09-MS | 30.339MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-197.40-MS | 30.312MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-167.99.66.74:443📡PING-197.41-MS | 30.149MB
+  - 🇸🇬VM-WS-NONE🇸🇬SG-146.190.110.92:22118📡PING-197.46-MS | 30.042MB
+  - 🇸🇬VM-WS-NONE🇸🇬SG-146.190.110.92:22118📡PING-197.52-MS | 30.028MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-198.52-MS | 30.001MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.53:3306📡PING-198.52-MS | 29.938MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-18.142.122.247:443📡PING-198.77-MS | 29.672MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-5.44.249.44:3306📡PING-199.45-MS | 29.651MB
+  - 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-201.40-MS | 29.525MB
+  - 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-202.03-MS | 29.266MB
+  - 🇸🇬VM-WS-TLS🇸🇬SG-138.2.104.13:22239📡PING-202.16-MS | 29.236MB
+  - 🇸🇬TR-WS-NA🇸🇬SG-167.99.66.74:80📡PING-207.63-MS | 29.234MB
+  - VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-209.30-MS | 29.225MB
+  - VM-WS-NA🇵🇭PH-38.54.87.157:35551📡PING-209.45-MS | 29.219MB
+  - VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-210.21-MS | 29.214MB
+  - VM-WS-NA🇵🇭PH-38.54.87.155:53587📡PING-210.55-MS | 29.196MB
+  - TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-214.54-MS | 29.022MB
+  - TR-WS-TLS🇮🇩ID-43.218.139.54:443📡PING-215.98-MS | 29.015MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:10497📡PING-216.29-MS | 29.007MB
+  - VM-WS-NA🇮🇷IR-31.14.114.55:39986📡PING-216.48-MS | 28.904MB
+  - VM-WS-NA🇮🇷IR-31.14.114.51:16557📡PING-216.95-MS | 28.869MB
+  - 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-217.12-MS | 28.802MB
+  - 🇯🇵VM-WS-NA🇯🇵JP-103.140.137.11:18443📡PING-217.86-MS | 28.785MB
+  - VM-WS-NA🇮🇷IR-31.14.114.52:22925📡PING-218.04-MS | 28.776MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:43017📡PING-218.35-MS | 28.662MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-218.81-MS | 28.606MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:17275📡PING-219.12-MS | 28.576MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-219.25-MS | 28.528MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:32644📡PING-219.68-MS | 28.52MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:20340📡PING-220.11-MS | 28.503MB
+  - VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-220.22-MS | 28.502MB
+  - VM-WS-NA🇮🇷IR-31.14.114.53:37517📡PING-221.75-MS | 28.497MB
+  - VM-WS-NA🇮🇷IR-31.14.114.56:54618📡PING-221.82-MS | 28.418MB
+  - TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-225.28-MS | 28.386MB
+  - TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-226.96-MS | 28.274MB
+  - VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-227.20-MS | 28.24MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-227.71-MS | 28.203MB
+  - TR-WS-TLS🇦🇪AE-3.29.95.54:443📡PING-227.86-MS | 28.202MB
+  - VM-WS-NA🇮🇷IR-31.14.114.56:26295📡PING-227.90-MS | 28.162MB
+  - 🇸🇬TR-WS-TLS🇸🇬SG-96.0.146.134:443📡PING-228.89-MS | 28.12MB
+  - 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-228.98-MS | 28.11MB
+  - 🇮🇳VM-WS-NONE🇮🇳IN-129.154.228.4:8087📡PING-229.11-MS | 28.093MB
+  - TR-WS-TLS🇹🇭TH-15.220.240.255:443📡PING-229.52-MS | 28.06MB
+  - VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-234.70-MS | 28.059MB
+  - VM-WS-NA🇹🇭TH-38.54.82.126:41657📡PING-234.79-MS | 28.053MB
+  - 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-238.14-MS | 27.969MB
+  - 🇮🇳TR-WS-TLS🇮🇳IN-43.205.109.9:443📡PING-238.40-MS | 27.954MB
+  - TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-258.26-MS | 27.947MB
+  - TR-WS-TLS🇿🇦ZA-13.244.104.87:443📡PING-258.27-MS | 27.945MB
+  - VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-310.85-MS | 27.897MB
+  - VM-WS-NA🇵🇭PH-109.248.25.59:29064📡PING-318.45-MS | 27.88MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-047.45-MS | 27.801MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-34.222.204.128:443📡PING-047.35-MS | 27.774MB
+  - 🇺🇸VM-WS-NA🇺🇸US-192.18.133.132:8085📡PING-045.65-MS | 27.76MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-045.51-MS | 27.741MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-15.181.162.1:443📡PING-045.40-MS | 27.726MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-044.57-MS | 27.709MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-45.63.106.86:27025📡PING-044.42-MS | 27.709MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-142.4.100.202:30000📡PING-044.20-MS | 27.642MB
+  - 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-042.51-MS | 27.499MB
+  - 🇨🇦TR-WS-TLS🇨🇦CA-35.183.238.42:443📡PING-042.32-MS | 27.461MB
+  - 🇺🇸VM-WS-NA🇺🇸US-205.185.125.200:11451📡PING-041.19-MS | 27.444MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-040.40-MS | 27.426MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-164.90.130.217:13337📡PING-039.95-MS | 27.35MB
+  - VM-WS-TLS🏴‍☠️NA-162.159.44.26:443📡PING-037.78-MS | 27.346MB
+  - 🇺🇸VM-WS-NA🇺🇸US-66.42.100.214:60222📡PING-037.36-MS | 27.277MB
+  - 🇺🇸VM-WS-NA🇺🇸US-66.42.100.214:60222📡PING-037.33-MS | 27.204MB
+  - 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-033.65-MS | 27.175MB
+  - 🇺🇸VM-WS-NA🇺🇸US-129.80.185.15:32733📡PING-033.60-MS | 27.166MB
+  - TR-WS-TLS🏴‍☠️NA-162.159.137.232:443📡PING-018.96-MS | 27.149MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.57.252:80📡PING-017.59-MS | 27.129MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.19.24:443📡PING-017.24-MS | 27.118MB
+  - VM-WS-NA🏴‍☠️NA-104.17.159.62:80📡PING-016.87-MS | 27.104MB
+  - VM-WS-NA🏴‍☠️NA-104.16.3.35:8080📡PING-016.79-MS | 27.052MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-016.75-MS | 27.008MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.229.60:443📡PING-016.75-MS | 26.955MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.47.117:8443📡PING-016.39-MS | 26.951MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.66.45.47:8443📡PING-016.27-MS | 26.885MB
+  - 🇺🇸TR-WS-NONE🇺🇸US-172.66.44.112:80📡PING-016.21-MS | 26.832MB
+  - TR-WS-TLS🏴‍☠️NA-104.25.254.185:443📡PING-016.13-MS | 26.795MB
+  - TR-WS-TLS🏴‍☠️NA-104.25.254.64:443📡PING-016.13-MS | 26.725MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.75.6:443📡PING-016.11-MS | 26.658MB
+  - TR-WS-NA🏴‍☠️NA-104.21.60.120:443📡PING-016.11-MS | 26.51MB
+  - VM-WS-NA🏴‍☠️NA-104.16.30.34:8080📡PING-015.71-MS | 26.454MB
+  - 🇳🇱TR-WS-TLS🇳🇱NL-188.114.96.3:443📡PING-015.67-MS | 26.393MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.183.108:8443📡PING-015.31-MS | 26.353MB
+  - VM-WS-NA🏴‍☠️NA-162.159.253.28:80📡PING-015.20-MS | 26.32MB
+  - 🇳🇱TR-WS-NA🇳🇱NL-45.131.5.115:443📡PING-015.09-MS | 26.272MB
+  - TR-WS-TLS🇱🇺LU-188.42.88.227:443📡PING-015.06-MS | 26.227MB
+  - 🇨🇦TR-WS-TLS🇨🇦CA-64.68.192.1:443📡PING-014.94-MS | 26.189MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.167.137:443📡PING-014.85-MS | 26.123MB
+  - VM-WS-NA🏴‍☠️NA-104.16.28.34:8080📡PING-014.83-MS | 26.079MB
+  - TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-014.78-MS | 26.07MB
+  - TR-WS-TLS🏴‍☠️NA-104.26.3.217:443📡PING-014.66-MS | 26.065MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-014.65-MS | 26.035MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.149.221:443📡PING-014.62-MS | 26.017MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.7.241:443📡PING-014.61-MS | 26.0MB
+  - VM-WS-NA🏴‍☠️NA-104.16.1.35:8080📡PING-014.61-MS | 25.997MB
+  - 🇳🇱TR-WS-TLS🇳🇱NL-45.131.4.240:443📡PING-014.61-MS | 25.996MB
+  - TR-WS-TLS🏴‍☠️NA-104.18.202.232:443📡PING-014.60-MS | 25.974MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.154.89:443📡PING-014.59-MS | 25.97MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.229.25:2086📡PING-014.58-MS | 25.93MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.158.207:443📡PING-014.58-MS | 25.894MB
+  - TR-WS-TLS🏴‍☠️NA-104.26.10.33:443📡PING-014.53-MS | 25.883MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.48.84:443📡PING-014.50-MS | 25.821MB
+  - TR-WS-TLS🏴‍☠️NA-104.18.31.88:8443📡PING-014.49-MS | 25.717MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-014.46-MS | 25.631MB
+  - TR-WS-TLS🏴‍☠️NA-104.18.31.88:8443📡PING-014.46-MS | 25.603MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.188.127:443📡PING-014.45-MS | 25.589MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.69.247:8880📡PING-014.45-MS | 25.545MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-014.45-MS | 25.5MB
+  - 🇳🇱TR-WS-TLS🇳🇱NL-45.131.4.240:443📡PING-014.42-MS | 25.494MB
+  - 🇺🇸TR-WS-NA🇺🇸US-45.159.216.230:443📡PING-014.41-MS | 25.474MB
+  - 🇦🇺TR-WS-NA🇦🇺AU-103.169.142.18:443📡PING-014.39-MS | 25.431MB
+  - TR-WS-TLS🏴‍☠️NA-104.17.42.10:443📡PING-014.34-MS | 25.423MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.48.84:443📡PING-014.34-MS | 25.376MB
+  - VM-WS-NA🏴‍☠️NA-104.16.26.34:8080📡PING-014.34-MS | 25.349MB
+  - 🇺🇸TR-WS-NA🇺🇸US-45.159.216.236:443📡PING-014.34-MS | 25.327MB
+  - TR-WS-TLS🏴‍☠️NA-162.159.135.232:443📡PING-014.33-MS | 25.324MB
+  - 🇺🇸VM-WS-TLS🇺🇸US-172.67.109.85:443📡PING-014.33-MS | 25.308MB
+  - TR-WS-TLS🏴‍☠️NA-104.25.254.41:443📡PING-014.32-MS | 25.267MB
+  - TR-WS-TLS🏴‍☠️NA-104.21.12.87:443📡PING-014.32-MS | 25.262MB
+  - 🇺🇸VM-WS-NA🇺🇸US-172.67.69.247:8880📡PING-014.32-MS | 25.196MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-66.235.200.0:443📡PING-014.32-MS | 25.163MB
+  - 🇳🇱TR-WS-NA🇳🇱NL-45.131.6.38:443📡PING-014.31-MS | 25.14MB
+  - VM-WS-NA🏴‍☠️NA-104.16.2.35:8080📡PING-014.30-MS | 25.072MB
+  - 🇺🇸TR-WS-TLS🇺🇸US-172.67.184.229:443📡PING-014.28-MS | 25.055MB
+  - TR-WS-NONE🇹🇷TR-185.201.139.200:80📡PING-014.26-MS | 25.024MB
+  - 🇺🇸TR-WS-NA🇺🇸US-172.67.150.82:443📡PING-014.25-MS | 25.023MB
+  - 🇺🇸TR-WS-NA🇺🇸US-45.159.216.240:443📡PING-014.25-MS | 25.015MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.179.192:443📡PING-014.23-MS | 25.015MB
+  - TR-WS-TLS🏴‍☠️NA-104.25.244.9:443📡PING-014.23-MS | 24.999MB
+  - TR-WS-TLS🏴‍☠️NA-104.20.168.47:443📡PING-014.22-MS | 24.973MB
+  - 🇦🇺TR-WS-NA🇦🇺AU-103.11.214.252:443📡PING-014.22-MS | 24.884MB
 rule-providers:
   direct:
     type: http
